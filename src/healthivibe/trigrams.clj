@@ -61,7 +61,7 @@
          k (or start-key (rand-nth (keys trigram-map)))
          s (str/capitalize (apply str (interpose " " k)))]
     (if (zero? i)
-      s
+      (str s ".")
       (let [v (rand-nth (get trigram-map k))
             v (if (nil? v) ; sometimes the bigram only exists at sentence end, but important to get our full quota of words, so pick another random word to continue in this case.
                 (rand-nth (rand-nth (vals trigram-map)))
@@ -91,7 +91,7 @@
 
 (defn generate-sentences [trigram-map n]
   (->> (repeatedly n (partial generate-sentence trigram-map (+ 12 (rand-int 20))))
-       (interpose ". ")
+       (interpose " ")
        (apply str)))
 
 (defn generate-sentence-containing [trigram-map 
