@@ -1,0 +1,1678 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Aborting connect, error determining connect sequence.
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+{}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+{}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+{["the" "Other"] ["cat"],
+ ["mat" "on"] ["the"],
+ ["cat" "on"] ["the"],
+ ["cat" "sat"] ["on"],
+ ["the" "mat"] ["on"],
+ ["on" "the"] ["Other" "mat" "floor"],
+ ["the" "cat"] ["sat"],
+ ["sat" "on"] ["the"],
+ ["Other" "cat"] ["on"]}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+{["the." "Other"] ["cat"],
+ ["mat" "on"] ["the"],
+ ["cat" "on"] ["the"],
+ ["cat" "sat"] ["on"],
+ ["the" "mat"] ["on"],
+ ["on" "the"] ["mat" "floor"],
+ ["the" "cat"] ["sat"],
+ ["on" "the."] ["Other"],
+ ["sat" "on"] ["the."],
+ ["Other" "cat"] ["on"]}
+clj꞉healthivibe.trigrams꞉> 
+"!"
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+"."
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+{["the." "Other"] ["cat"],
+ ["mat" "on"] ["the"],
+ ["cat" "on"] ["the"],
+ ["cat" "sat"] ["on"],
+ ["the" "mat"] ["on"],
+ ["on" "the"] ["mat" "floor"],
+ ["the" "cat"] ["sat"],
+ ["on" "the."] ["Other"],
+ ["sat" "on"] ["the."],
+ ["Other" "cat"] ["on"]}
+clj꞉healthivibe.trigrams꞉> 
+{["the." "Other"] ["cat"],
+ ["mat" "on"] ["the"],
+ ["cat" "on"] ["the"],
+ ["cat" "sat"] ["on"],
+ ["the" "mat"] ["on"],
+ ["on" "the"] ["mat" "floor"],
+ ["the" "cat"] ["sat"],
+ ["on" "the."] ["Other"],
+ ["sat" "on"] ["the."],
+ ["Other" "cat"] ["on"]}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+{["the." "Other"] ["cat"],
+ ["mat" "on"] ["the"],
+ ["cat" "on"] ["the"],
+ ["cat" "sat"] ["on"],
+ ["the" "mat"] ["on"],
+ ["on" "the"] ["mat" "floor"],
+ ["the" "cat"] ["sat"],
+ ["on" "the."] ["Other"],
+ ["sat" "on"] ["the."],
+ ["Other" "cat"] ["on"]}
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the.")
+ ("on" "the." "Other")
+ ("the." "Other" "cat")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the")
+ ("on" "the" "floor"))
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/gather-trigrams
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the.")
+ ("on" "the." "Other")
+ ("the." "Other" "cat")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the")
+ ("on" "the" "floor"))
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the.")
+ ("on" "the." "Other")
+ ("the." "Other" "cat")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the")
+ ("on" "the" "floor"))
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+\.
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the.")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the")
+ ("on" "the" "floor"))
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Syntax error (IllegalArgumentException) compiling at (src/healthivibe/trigrams.clj:48:1).
+; Don't know how to create ISeq from: clojure.core$filter$fn__5908
+; Evaluation of file trigrams.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the.")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the")
+ ("on" "the" "floor"))
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the.")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the")
+ ("on" "the" "floor"))
+clj꞉healthivibe.trigrams꞉> 
+{["the" "cat"] ["sat"],
+ ["cat" "sat"] ["on"],
+ ["sat" "on"] ["the."],
+ ["Other" "cat"] ["on"],
+ ["cat" "on"] ["the"],
+ ["on" "the"] ["mat" "floor"],
+ ["the" "mat"] ["on"],
+ ["mat" "on"] ["the"]}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the.")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the")
+ ("on" "the" "floor"))
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+{["the" "cat"] ["sat"],
+ ["cat" "sat"] ["on"],
+ ["sat" "on"] ["the."],
+ ["Other" "cat"] ["on"],
+ ["cat" "on"] ["the"],
+ ["on" "the"] ["mat"],
+ ["the" "mat"] ["on"],
+ ["mat" "on"] ["the-floor"]}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "t")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "t")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "t")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "t")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Syntax error (IllegalArgumentException) compiling at (src/healthivibe/trigrams.clj:52:1).
+; Don't know how to create ISeq from: clojure.core$map$fn__5881
+; Evaluation of file trigrams.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams꞉> 
+#function[clojure.core/map/fn--5881]
+clj꞉healthivibe.trigrams꞉> 
+#function[clojure.core/map/fn--5881]
+clj꞉healthivibe.trigrams꞉> 
+#function[clojure.core/map/fn--5881]
+clj꞉healthivibe.trigrams꞉> 
+#function[clojure.core/map/fn--5881]
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Syntax error (IllegalArgumentException) compiling at (src/healthivibe/trigrams.clj:52:1).
+; Don't know how to create ISeq from: clojure.core$map$fn__5881
+; Evaluation of file trigrams.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+{["the" "cat"] ["sat"],
+ ["cat" "sat"] ["on"],
+ ["sat" "on"] ["the"],
+ ["Other" "cat"] ["on"],
+ ["cat" "on"] ["the"],
+ ["on" "the"] ["mat"],
+ ["the" "mat"] ["on"],
+ ["mat" "on"] ["the-floor"]}
+clj꞉healthivibe.trigrams꞉> 
+{["prim" "hard"] ["and"],
+ ["really" "some"] ["huge"],
+ ["descriptions" "by"] ["trustworthy"],
+ ["mire" "for"] ["the"],
+ ["Then" "I"] ["was" "should" "understand" "answer" "followed" "will"],
+ ["deeply" "moved"] ["by"],
+ ["carriage" "and"] ["were"],
+ ["cried" "to"] ["him"],
+ ["heads" "of"] ["these" "the" "the"],
+ ["could" "proceed"] ["no"],
+ ["a" "house"] ["indicated" "as" "ahead"],
+ ["peat" "and"] ["granite"],
+ ["no" "superstitious"] ["fears"],
+ ["to" "walk"] ["for" "home" "to" "on"],
+ ["and" "saw"] ["the"],
+ ["been" "many"] ["statements"],
+ ["to" "accept"] ["any" "that" "them" "an"],
+ ["night" "indoors"] ["and"],
+ ["whatever" "it"] ["is"],
+ ["the" "delirious"] ["dream"],
+ ["he" "when"] ["the" "I"],
+ ["going" "off"] ["with"],
+ ["Riding" "slowly"] ["in"],
+ ["round" "with"] ["me" "a" "a"],
+ ["last" "suspicions"] ["from"],
+ ["the" "crudest"] ["ideas"],
+ ["roysterers" "but"] ["it"],
+ ["the" "library"] ["and"],
+ ["one" "when"] ["I"],
+ ["criminal" "expert"] ["should"],
+ ["Then" "my"] ["gentleman" "senses" "reports"],
+ ["about" "nights"] ["and"],
+ ["sleeves" "and"] ["we"],
+ ["placing" "himself"] ["in"],
+ ["and" "have"] ["no" "some" "him"],
+ ["was" "complimented"] ["by"],
+ ["noises" "on"] ["the"],
+ ["all" "things"] ["are"],
+ ["send" "some"] ["description"],
+ ["what" "occurred"] ["and"],
+ ["examining" "the"] ["foolscap"],
+ ["avoid" "a"] ["public" "public"],
+ ["one" "straight"] ["yellow"],
+ ["gone" "however"] ["and"],
+ ["there" "for"] ["five"],
+ ["well" "bribed"] ["to"],
+ ["mark" "upon"] ["him"],
+ ["my" "next"] ["report" "I"],
+ ["dingy" "and"] ["his"],
+ ["minutes" "later"] ["we"],
+ ...}
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+["the" "cat" "sat" "on" "the." "Other" "cat" "on" "the" "mat" "" "on" "the-floor"]
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+(\t
+ \h
+ \e
+ \c
+ \a
+ \t
+ \s
+ \a
+ \t
+ \o
+ \n
+ (\t \h \e)
+ (\.)
+ \O
+ \t
+ \h
+ \e
+ \r
+ \c
+ \a
+ \t
+ \o
+ \n
+ \t
+ \h
+ \e
+ \m
+ \a
+ \t
+ \o
+ \n
+ \t
+ \h
+ \e
+ \-
+ \f
+ \l
+ \o
+ \o
+ \r)
+clj꞉healthivibe.trigrams꞉> 
+["the" "cat" "sat" "on" "the." "Other" "cat" "on" "the" "mat" "" "on" "the-floor"]
+clj꞉healthivibe.trigrams꞉> 
+(\t
+ \h
+ \e
+ \c
+ \a
+ \t
+ \s
+ \a
+ \t
+ \o
+ \n
+ (\t \h \e)
+ (\.)
+ \O
+ \t
+ \h
+ \e
+ \r
+ \c
+ \a
+ \t
+ \o
+ \n
+ \t
+ \h
+ \e
+ \m
+ \a
+ \t
+ \o
+ \n
+ \t
+ \h
+ \e
+ \-
+ \f
+ \l
+ \o
+ \o
+ \r)
+clj꞉healthivibe.trigrams꞉> 
+["the" "cat" "sat" "on" "the." "Other" "cat" "on" "the" "mat" "" "on" "the-floor"]
+clj꞉healthivibe.trigrams꞉> 
+("the" "cat" "sat" "on" [(\t \h \e) (\.)] "Other" "cat" "on" "the" "mat" "" "on" "the-floor")
+clj꞉healthivibe.trigrams꞉> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉healthivibe.trigrams꞉> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉healthivibe.trigrams꞉> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉healthivibe.trigrams꞉> 
+("the" "cat" "sat" "on" ["the." \.] "Other" "cat" "on" "the" "mat" "" "on" "the-floor")
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+("the" "cat" "sat" "on" ["the." \.] "Other" "cat" "on" "the" "mat" "" "on" "the-floor")
+clj꞉healthivibe.trigrams꞉> 
+("the" "cat" "sat" "on" ["the" \.] "Other" "cat" "on" "the" "mat" "" "on" "the-floor")
+clj꞉healthivibe.trigrams꞉> 
+(\t
+ \h
+ \e
+ \c
+ \a
+ \t
+ \s
+ \a
+ \t
+ \o
+ \n
+ "the"
+ \.
+ \O
+ \t
+ \h
+ \e
+ \r
+ \c
+ \a
+ \t
+ \o
+ \n
+ \t
+ \h
+ \e
+ \m
+ \a
+ \t
+ \o
+ \n
+ \t
+ \h
+ \e
+ \-
+ \f
+ \l
+ \o
+ \o
+ \r)
+clj꞉healthivibe.trigrams꞉> 
+("the" "cat" "sat" "on" "the" \. "Other" "cat" "on" "the" "mat" "" "on" "the-floor")
+clj꞉healthivibe.trigrams꞉> 
+("the" "cat" "sat" "on" "the" "." "Other" "cat" "on" "the" "mat" "" "on" "the-floor")
+clj꞉healthivibe.trigrams꞉> 
+(("the" "cat" "sat")
+ ("cat" "sat" "on")
+ ("sat" "on" "the")
+ ("Other" "cat" "on")
+ ("cat" "on" "the")
+ ("on" "the" "mat")
+ ("the" "mat" "on")
+ ("mat" "on" "the-floor"))
+clj꞉healthivibe.trigrams꞉> 
+{["the" "cat"] ["sat"],
+ ["cat" "sat"] ["on"],
+ ["sat" "on"] ["the"],
+ ["Other" "cat"] ["on"],
+ ["cat" "on"] ["the"],
+ ["on" "the"] ["mat"],
+ ["the" "mat"] ["on"],
+ ["mat" "on"] ["the-floor"]}
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/task-1-generate-50-words
+clj꞉healthivibe.trigrams꞉> 
+"you  me upon his part if I am happy to have her wits turned at the gate by ten o clock this morning I should not be kept secret                      "
+clj꞉healthivibe.trigrams꞉> 
+"her  and unemotional brother                                               "
+clj꞉healthivibe.trigrams꞉> 
+"50  of the hut his shoulders rounded as he waved his hand for the coming of the hound to call this afternoon and late into the dining-hall he sprang to his sister were such as creation of derivative works based on the evening from Coombe Tracey and only I can give"
+clj꞉healthivibe.trigrams꞉> 
+"the  of way and defy the parish to make his own wife ought to be a statement of Barrymore s own wishes and that he had set an agent that you are compromised                  "
+clj꞉healthivibe.trigrams꞉> 
+"The  of those rumours to which I have set it down it from me and stooped behind the peaceful and sunlit countryside there rose suddenly out of the assassin                      "
+clj꞉healthivibe.trigrams꞉> 
+"comparative  of the vast expanse save a pair of puzzled dark eyes eyes full of that local hunt Watson said he when I wrote the letter I never went                      "
+clj꞉healthivibe.trigrams꞉> 
+"had  upon the footsteps down the goyal                                            "
+clj꞉healthivibe.trigrams꞉> 
+"management  the door of the obvious conclusion that the lady even though it was that the man was a circle of light through an open grassy space which lay in hiding too but he had done upon the moorlands and they rode swiftly abreast taking that course which the upper end"
+clj꞉healthivibe.trigrams꞉> 
+"false  plunged us more than this when you did not come to interrogate                                      "
+clj꞉healthivibe.trigrams꞉> 
+"entered  sitting-room once more the footsteps down the corridor was all Sir Henry Baskerville perhaps you will give me a newcomer                              "
+clj꞉healthivibe.trigrams꞉> 
+"Then  me have the curiosity to go away                                           "
+clj꞉healthivibe.trigrams꞉> 
+"and  acquaintance never paused for an instant but a tool in his downright fashion had Barrymore up and all associated files of various formats will be much more useful there at the dead animal                 "
+clj꞉healthivibe.trigrams꞉> 
+"seen  England now but it would not come I was very much more useful there at the time until we can get a glimpse of something which terrified him so seldom and wrote so seldom and wrote so seldom and wrote so seldom and wrote so seldom how did you put"
+clj꞉healthivibe.trigrams꞉> 
+"your  that we allowed him to be in the stress of her fear she did so Barrymore sprang up from Plymouth and it is for the rising mud oozed swiftly in upon our expedition                 "
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/task-1-generate-50-words
+clj꞉healthivibe.trigrams꞉> 
+exporting 
+exporting  copy
+exporting  copy of
+exporting  copy of the
+exporting  copy of the bog-hole
+exporting  copy of the bog-hole but
+"exporting  copy of the bog-hole but"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/task-1-generate-50-words
+clj꞉healthivibe.trigrams꞉> 
+had  [had spoken]
+had  without [spoken without]
+had  without knowing [without knowing]
+had  without knowing all [knowing all]
+had  without knowing all the [all the]
+had  without knowing all the other [the other]
+"had  without knowing all the other"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/task-1-generate-50-words
+clj꞉healthivibe.trigrams꞉> 
+  [Suddenly we]
+  looked [we looked]
+  looked down [looked down]
+  looked down into [down into]
+  looked down into those [into those]
+  looked down into those obscene [those obscene]
+"  looked down into those obscene"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/task-1-generate-50-words
+clj꞉healthivibe.trigrams꞉> 
+An ordinary [An ordinary]
+An ordinary schemer [ordinary schemer]
+An ordinary schemer would [schemer would]
+An ordinary schemer would have [would have]
+An ordinary schemer would have been [have been]
+An ordinary schemer would have been mourning [been mourning]
+"An ordinary schemer would have been mourning"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/task-1-generate-50-words
+clj꞉healthivibe.trigrams꞉> 
+"the darkest corner and cocked the pistol"
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Syntax error (ArityException) compiling at (src/healthivibe/trigrams.clj:70:1).
+; Wrong number of args (1) passed to: healthivibe.trigrams/generate-words
+; Evaluation of file trigrams.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams꞉> 
+; Execution error (ArityException) at healthivibe.trigrams/eval8602 (REPL:70).
+; Wrong number of args (1) passed to: healthivibe.trigrams/generate-words
+clj꞉healthivibe.trigrams꞉> 
+"rising howl and then I struck off across the moor at night ever seen any strange creature or heard the story from my gig and was about to make a home of his time in the sheets which had been upon the sides of you not to tell the truth or at"
+clj꞉healthivibe.trigrams꞉> 
+"best of us as we can get a glimpse of the window of his life which has befallen me in a hotel                              "
+clj꞉healthivibe.trigrams꞉> 
+"No Sir Henry that in any way with an expert upon his mind was prepared for just such an idea out of the Project Gutenberg-tm electronic works in creating the Project Gutenberg is associated is accessed displayed performed viewed copied or distributed This eBook is for Mr     "
+clj꞉healthivibe.trigrams꞉> 
+"out between two high walls of clipped hedge with a mischievous smile but I saw as my own misfortune for with my soul full of horror and anguish burst out of the autumn wind and the moor at no great distance at the gate at ten o clock Barrymore finding the hall"
+clj꞉healthivibe.trigrams꞉> 
+"tense with emotion and anticipation                                               "
+clj꞉healthivibe.trigrams꞉> 
+"a young lady who was bent upon counteracting his schemes for the mere pleasure of introducing you to go the length and breadth of the family have been on guard in this message with a boyish enthusiasm as he was dancing and laughing and wringing my hand upon all the accounts which"
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+["anticipation"]
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-words
+clj꞉healthivibe.trigrams꞉> 
+"should lose his footing in the power of evil are exalted over you as an elder sister would some see Project hand night him that he was diabolical as well to go carefully when there s black villainy brewing to that portion of the street and waited an hour we won t"
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+"unless you can call it a pleasure to exercise any small powers which I had the further motive that Baskerville has been paying some attention to this agreement for keeping the appointment on his way back to me that it is quite out of court if we came to conceal his features"
+clj꞉healthivibe.trigrams꞉> 
+"want light but it was the window of old Hugo it either if she were very far from the fall out into the evening from Coombe Tracey and it was the cry of satisfaction and following the wrong man had been suggested by Sir Henry to go in disgrace from PG and"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentences
+clj꞉healthivibe.trigrams꞉> 
+("gentlemen down Regent Street conjectured that I should have done so had found a safe hiding-place for the uneasiness of"
+ "ruin of black granite and bared ribs of rafters but facing it was not difficult to discover the body of"
+ "led up to her as you are located also govern what you have been sealed tomorrow the fires eyes and"
+ "a clean collar at are or what he liked in it then stretching our inference too far away upon the"
+ "material footmarks and fills the air caught my eye and another glance showed me that it was carried on a"
+ "not very much more onerous if a damper climate of WORK has to come down with me and reentered the"
+ "heir should settle at the hour of darkness when the position of seeming to indorse a popular superstition man every"
+ "heard that Baskerville Hall consisted of a cigarette marked Bradley Oxford Street I know one when I was too great"
+ "which terrified him so I spent it in London and amid the millions of this spiteful old busybody was o"
+ "pen has spluttered twice in a sombre tunnel over our heads with a mixture of admiration for his sister to")
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentences
+clj꞉healthivibe.trigrams꞉> 
+("Hardy man who. "
+ "That brandy and. "
+ "My luck some. "
+ "His infernal paint. "
+ "Last two days. "
+ "Anyone you know. "
+ "Should we not. "
+ "Footprint of the. "
+ "Fancy old frankland. "
+ "Elicited at the. ")
+clj꞉healthivibe.trigrams꞉> 
+("Grounds before i had seen through the darkness and shot. "
+ "Grave and deep reason lay behind it his green net. "
+ "Is anything which has befallen me in the collection of. "
+ "Least enough has been done in such states who approach. "
+ "Every hut upon the stairs into the widespread bog the. "
+ "Devote all my thoughts began to turn towards the truth. "
+ "Stranger who was in a low voice as we went. "
+ "He lived in this chain of mysteries who his as. "
+ "Got my verdict up upon over by if the lady. "
+ "From holmes to me as i had heard after i. ")
+clj꞉healthivibe.trigrams꞉> 
+("Like and there was nothing more stimulating than a mastiff end the with until. "
+ "A more robust and ruffianly person go and game dare now a their to. "
+ "Barren scene the sense of adventure had always a risk with the moon silvering. "
+ "Barrymore paler and more luxuriant vegetation spoke of a lady who has the facts. "
+ "Have instantly turned and had dispatched the trap into which all the world can. "
+ "Can say so said holmes did the same blood as one of the demon. "
+ "Time the baronet you only with facts his and for a great deal more. "
+ "The surest way to baskerville hall for four generations now woman a a plans. "
+ "Position to make her the direct accessory to murder  it here of october. "
+ "No word of it to the countryside which bore it up in the sheets. ")
+clj꞉healthivibe.trigrams꞉> 
+("Moor mottled with bruises project ahead the feet as absurd circumstances full ears ever bring. "
+ "Do we not beryl of its silver disc a stapletons the prevent to editions folded. "
+ "Footing in the moonlight over the body of sir charles should destroy your letter to. "
+ "The shape of the window with a view to look at him as she could. "
+ "Them his absurd net dangling behind him such consolation as i was completely puzzled myself. "
+ "Is but one man in all the huts until you came to conceal his features. "
+ "Light is a boy in my indexed list of cases how yet breaking and safe. "
+ "Throw some light upon a stone hut upon the butler who made the acquaintance of. "
+ "Had no justification what earnestness chance time over in case of extraordinary interest and sir. "
+ "Rebellion the history of which he had loved and it is largely due to some. ")
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentences
+clj꞉healthivibe.trigrams꞉> 
+("Two when they"
+ ". "
+ "He remained in"
+ ". "
+ "All a dream"
+ ". "
+ "I caught one"
+ ". "
+ "The weird sound"
+ ". "
+ "And presented the"
+ ". "
+ "To bed this"
+ ". "
+ "Your reports my"
+ ". "
+ "Through the haze"
+ ". "
+ "Reason why we")
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentences
+clj꞉healthivibe.trigrams꞉> 
+"Then a long carouse as was their nightly custom public say after computers the upon of the distant boulders gleaming. Investigator needs facts and leave you and especially about the moor mottled with the hounds upon her face was turned. Homes and the case mrs indication you face his arms out his fingers dug into the empty hut in search. A written explanation to the dreadful shimmering head but it was he who cared for him in the corner of. Counsel you by stapleton in his chair placed his finger-tips together and posted yesterday evening lake cleanliness upon date legend. Surely you are yourself inclining to the home of my revolver might have no doubt described the sequence of events. Outfit having now all arrived with your company if you will give a shilling times hereby find a tenant for. To lie the very sight of that but i will do just what you now said holmes bitterly as he. Excuse me an extra pair of feet and turned to me a newcomer may in our following them said holmes. To obtain an old manservant the sister and the bird escaped some come had three pairs in the situation without"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentences
+clj꞉healthivibe.trigrams꞉> 
+; Execution error (ClassCastException) at healthivibe.trigrams/generate-sentences (REPL:75).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉healthivibe.trigrams꞉> 
+; Execution error (ClassCastException) at healthivibe.trigrams/generate-sentences (REPL:75).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentences
+clj꞉healthivibe.trigrams꞉> 
+"Audacity in sending back my own plan as well to go about alone i. When it was long after the hall if she really wanted me to come. Address showing that there must have told me that it is that when i. Second wire to sir charles to death by the inquest but at least was. Efforts project gutenberg-tm concept of a clear-cut classical statue a personification of alertness and. Lad and gave a hideous howl which showed where the moor lay in hiding. Conversation was that which is known as white jessamine not in a few minutes. And her fingers played nervously over the vast expanse save a pair of puzzled. A circle of the waning year i charles a and death from cardiac exhaustion. Friend spoke in a much broader and more horror-struck than her husband he would"
+clj꞉healthivibe.trigrams꞉> 
+["I"]
+clj꞉healthivibe.trigrams꞉> 
+["might"]
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentences
+clj꞉healthivibe.trigrams꞉> 
+"time the baronet hailed me at last that it was. man can do with him nor could any inquiry clear. new servants are ready to take over the mark of. the yew alley between two high walls of clipped hedge. introduction and the gleam of the sinking sun would several. physical medium you must admit that his heart and a. He gesticulated and almost next door to it and he. possibly be any animal known to him that the prosperity. The extract from it and gave a cry of surprise. from amid the millions of this Holmes dangerous copies is"
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+"Gone by this programme though I confess that I had. Reflected in his excitement and his face when Sir Henry. Your trap however and the work of Monsieur Bertillon must. The street but I must confess a reproach to my. Deathly face was spread-eagled some dark irregular object like dangling. Complete absence of motive in what he had defended the. My last report I ended upon my track and not. Works based on the alert but there is his sister. Charles baskerville said he I had to assure him that. Have set it down by the baronet and gave me"
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+"One of Sherlock Holmes that I have only just learned that he would find the. Continually glance at our very gates and and your Esquimau and that no track but. Affected and the terror of that prairie a fairly safe place for a little bundle. Oh if I had made certain of the naturalist pause at the placid face and. Remembered that Holmes had said nothing and his second was to tell Sir Henry s. Re not likely to take this train to town so I looked in concerns all. Gesture he put out the food to it that the probability is in town before. My troubling you about such a fright that I do not know how he died. Come his head for quite a budget already which will in turn dispossess the fair. Say anything more savage more appalling more hellish be conceived than that the stranger whom"
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+["door-step" "gates" "formidable"]
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+"Scattered throughout numerous locations the when not of Baskerville Hall Chapter 7 The Stapletons came in afterwards and the marks which you have read. One a farrier and one s soul its vastness and also of the hound and so intent was it and for your own eyes. C any Defect you cause but in the case before you leave your own free will had told us of similar cases where families.  he so far in safety spirits my Registry the the its upon us at the time of the kind upon that fatal night. Waste-paper of yesterday accustomed Henry fear as Barrymore the butler had gone out without keeping a hundred yards from it and it looked like. A green butterfly-net in one of those old savages who dwelt in the distance which divided us by their silent company man Sir to. Devilish cunning of it Dr the if them when he knew that we shall talk further of this some other man s throat out. More clearly then how this thing strikes me solemn to think the wonderful secrets which it died away in the dark story of the. Much when you did get there earlier smile marvel on continually man there was more pleased than surprised to see how you could come. Had written to Sir Henry Baskerville someone cut out the meaning of this which made his name a by-word through the dark recess of"
+clj꞉healthivibe.trigrams꞉> 
+["could" "foresaw" "so"]
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Syntax error macroexpanding clojure.core/let at (src/healthivibe/trigrams.clj:84:3).
+; [trigram] - failed: even-number-of-forms? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+; Evaluation of file trigrams.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/m2
+clj꞉healthivibe.trigrams꞉> 
+{["records" "the"] ["certainly"],
+ ["walk" "jaunty"] ["and"],
+ ["tied" "was"] ["figure"],
+ ["and" "tariff"] ["the"],
+ ["but" "horror"] ["with"],
+ ["black" "hound"] ["spectral"],
+ ["his" "truth"] ["in" "in"],
+ ["and" "message"] ["the"],
+ ["for" "merely"] ["not"],
+ ["pursuit" "his"] ["watching"],
+ ["to" "walk"] ["to"],
+ ["and" "saw"] ["you"],
+ ["over" "bit"] ["a"],
+ ["summons" "the"] ["obeyed"],
+ ["him" "gave"] ["and" "I" "and" "it"],
+ ["always" "cannot"] ["One" "I"],
+ ["forces" "with"] ["dealing"],
+ ["complex" "certain"] ["remembering"],
+ ["he" "when"]
+ ["and"
+  "her"
+  "morning"
+  "done"
+  "fled"
+  "bravely"
+  "however"
+  "tomorrow"
+  "shock"
+  "stopped"
+  "occasion"
+  "twice"
+  "down"
+  "much"
+  "but"
+  "eyes"
+  "heir"
+  "and"
+  "them"
+  "Baskerville"
+  "occasions"],
+ ["in" "feet"] ["his"],
+ ["rocks" "these"] ["among"],
+ ["of" "1876"] ["in"],
+ ["keeping" "of"] ["responsibility"],
+ ["of" "top"] ["the" "the" "the" "the" "the"],
+ ["Sir" "meet"] ["to"],
+ ["one" "when"] ["places"],
+ ["mutter" "deep"] ["long"],
+ ["in" "by"] ["stood"],
+ ["Sir" "Had"] ["it" "end"],
+ ["in" "object"] ["no"],
+ ["fight" "to"] ["enough"],
+ ["of" "order"] ["settled"],
+ ["instant" "present"] ["the"],
+ ["his" "changed"] ["he"],
+ ["mind" "you"] ["should" "Would"],
+ ["an" "gathering"] ["was"],
+ ["body" "mangled"] ["the"],
+ ["there" "for"] ["much" "veins" "granted" "cold"],
+ ["certain" "been"] ["have"],
+ ["authenticity" "the"] ["about"],
+ ["two" "take"] ["to"],
+ ["than" "matter"] ["important"],
+ ["used" "words"] ["the"],
+ ["anger" "my"] ["drove"],
+ ["out" "pouring"] ["cried"],
+ ["those" "but"] ["hands"],
+ ["fainted" "had"] ["she"],
+ ["a" "behind"] ["from"],
+ ["and" "gentleman"] ["young"],
+ ["Cartwright" "brought"] ["I"],
+ ...}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Syntax error (ArityException) compiling at (src/healthivibe/trigrams.clj:78:1).
+; Wrong number of args (2) passed to: healthivibe.trigrams/generate-sentence
+; Evaluation of file trigrams.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams꞉> 
+"A wall on that forbidding moor a thin rain began to supersede the stone huts upon the moor at night and if they are by no means limited to incomplete inaccurate or corrupt data transcription errors a copyright or other form not upon the right and the unconscious guest still chatted over"
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+"My looking at me with a view to informing him of his own death inert me cold with horror that they should saddle his mare and we glared at it in amazement to and accept all the way Dr being to are a conductor of light burning steadily in the narrative the"
+clj꞉healthivibe.trigrams꞉> 
+(["the" "covers"]
+ ["the" "opened"]
+ ["the" "wire"]
+ ["the" "glass"]
+ ["the" "importance"]
+ ["the" "inherit"]
+ ["the" "that"]
+ ["the" "met"]
+ ["the" "rose"]
+ ["the" "during"]
+ ["the" "slowly"]
+ ["the" "And"]
+ ["the" "exposed"]
+ ["the" "letter"]
+ ["the" "surveyed"]
+ ["the" "defy"]
+ ["the" "he"]
+ ["the" "were"]
+ ["the" "entered"]
+ ["the" "spent"]
+ ["the" "conceived"]
+ ["the" "world"]
+ ["the" "contrary"]
+ ["the" "following"]
+ ["the" "without"]
+ ["the" "mind"]
+ ["the" "encouraging"]
+ ["the" "leave"]
+ ["the" "aside"]
+ ["the" "warn"]
+ ["the" "allow"]
+ ["the" "grasped"]
+ ["the" "convict"]
+ ["the" "Fixing"]
+ ["the" "unswathed"]
+ ["the" "Was"]
+ ["the" "betwixt"]
+ ["the" "while"]
+ ["the" "days"]
+ ["the" "sweeps"]
+ ["the" "electronically"]
+ ["the" "do"]
+ ["the" "along"]
+ ["the" "outpaced"]
+ ["the" "outside"]
+ ["the" "on"]
+ ["the" "realise"]
+ ["the" "Across"]
+ ["the" "keep"]
+ ["the" "foolish"]
+ ...)
+clj꞉healthivibe.trigrams꞉> 
+["the" "one"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "After"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "thunder"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "off"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "bought"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "inside"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "with"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "he"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "especially"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "crest"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "constructed"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "surrounded"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "dispatched"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "avoid"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "violates"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "under"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "holder"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "and"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "help"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "finding"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "With"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "sometimes"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "us"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "Was"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "brunette"]
+clj꞉healthivibe.trigrams꞉> 
+["the" "Since"]
+clj꞉healthivibe.trigrams꞉> 
+; Syntax error compiling at (src/healthivibe/trigrams.clj:82:15).
+; Unable to resolve symbol: x in this context
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/find-key-starting-with
+clj꞉healthivibe.trigrams꞉> 
+["summons" "the"]
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+; Execution error (ArityException) at healthivibe.trigrams/eval9318 (REPL:100).
+; Wrong number of args (1) passed to: healthivibe.trigrams/find-key-starting-with
+clj꞉healthivibe.trigrams꞉> 
+"It was clear and alert his keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"face lit up with a bright keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"worn but clear and alert his keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"papers from his drawn brows and keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"It was clear and alert his keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"confined A skeleton with a bright keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"away from his drawn brows and keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"worn but clear and alert his keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"It was clear and alert his keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"worn but clear and alert his keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"I looked round with a bright keen face had obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed The summons"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-backwards
+clj꞉healthivibe.trigrams꞉> 
+["summons" "the"]
+clj꞉healthivibe.trigrams꞉> 
+["summons" "the"]
+clj꞉healthivibe.trigrams꞉> 
+["summons" "the"]
+clj꞉healthivibe.trigrams꞉> 
+["summons" "the"]
+clj꞉healthivibe.trigrams꞉> 
+["summons" "the"]
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"his keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"eyes died side The young heir glanced round with a bright keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"features He was thin and worn but clear and alert his keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"today it is I again It was clear and alert his keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"ancestors were not discouraged and we are dealing with a bright keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"the Selden Dr Mortimer drew it from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"inside But it had pealed out from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"I am more to blame said the detective with a bright keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"Because the ash had twice dropped from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"I They the him Partly also from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"wide Why should he not grey-headed and walks with a bright keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"little problem will soon be freed from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"of my appearance as well as from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"yet it may be taken away from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"afterwards The butler was standing watching his pursuit with a bright keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"are perfectly right to prevent it from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"science They all agreed that it was clear and alert his keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"could his would him Partly also from his drawn brows and keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+"was in America and inquiries are being instituted with a bright keen face had obeyed the summons"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-containing
+clj꞉healthivibe.trigrams꞉> 
+; Execution error (ArityException) at healthivibe.trigrams/eval9488 (REPL:120).
+; Wrong number of args (1) passed to: healthivibe.trigrams/generate-sentence-containing
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the law he seems a"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the lady has cleared the situation very much"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the Project Gutenberg-tm including"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the rooms we man"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the canvas wind many us arms to remained walked"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the moor and made these surroundings very"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the copyright holder your use and yet do"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the kind nor could any"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the stranger lurked the which"
+clj꞉healthivibe.trigrams꞉> 
+"Summons of the telegram himself a does"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-containing
+clj꞉healthivibe.trigrams꞉> 
+"the summons Summons of the convict"
+clj꞉healthivibe.trigrams꞉> 
+"the message with a bright keen face had obeyed the summons Summons of the"
+clj꞉healthivibe.trigrams꞉> 
+"his clear and alert his keen face had obeyed the summons Summons of the name and address from"
+clj꞉healthivibe.trigrams꞉> 
+"face had obeyed the summons Summons of the red-letter days of receiving it you can bring"
+clj꞉healthivibe.trigrams꞉> 
+"alert his keen face had obeyed the summons Summons of the night of the kind"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-containing
+clj꞉healthivibe.trigrams꞉> 
+"eager voice with a bright keen face had obeyed the summons  of the new baronet might refuse to live here"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-containing
+clj꞉healthivibe.trigrams꞉> 
+"keen face had obeyed the summons of the last man in"
+clj꞉healthivibe.trigrams꞉> 
+"clear and alert his keen face had obeyed the summons of the Baskervilles Chapter 15 A Retrospection"
+clj꞉healthivibe.trigrams꞉> 
+"had obeyed the summons of the"
+clj꞉healthivibe.trigrams꞉> 
+"face had obeyed the summons of the Baskervilles I have at"
+clj꞉healthivibe.trigrams꞉> 
+"the summons of"
+clj꞉healthivibe.trigrams꞉> 
+"his drawn brows and keen face had obeyed the summons of the same story of Sir Charles was"
+clj꞉healthivibe.trigrams꞉> 
+"and keen face had obeyed the summons of the two gaunt savage and as I entered however"
+clj꞉healthivibe.trigrams꞉> 
+"keen face had obeyed the summons of"
+clj꞉healthivibe.trigrams꞉> 
+"bright keen face had obeyed the summons of the house crying to"
+clj꞉healthivibe.trigrams꞉> 
+"obeyed the summons of the window Watson something"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-containing
+clj꞉healthivibe.trigrams꞉> 
+"which the and voice No no sir it was clear and alert his keen face had obeyed the summons of the night of the moor in those hours of the legend of the"
+clj꞉healthivibe.trigrams꞉> 
+"hound and the have was How evidently her It was clear and alert his keen face had obeyed the summons of the rocks in the other side of the hound there is his mark"
+clj꞉healthivibe.trigrams꞉> 
+"for example its surface was broken by the hand It was clear and alert his keen face had obeyed the summons of the hotels around Charing Cross Hospital what further inferences may we draw explain rushing to would parted of"
+clj꞉healthivibe.trigrams꞉> 
+"more thinking out the meaning of it that his clear and alert his keen face had obeyed the summons of the morning and I tell you all that you have withheld what the"
+clj꞉healthivibe.trigrams꞉> 
+"_Times_ Was that his clear and alert his keen face had obeyed the summons of the world before Sir Charles could have held out our hands straight upon the moor and he"
+clj꞉healthivibe.trigrams꞉> 
+"the ash had twice dropped from his drawn brows and keen face had obeyed the summons of the imagination but we did not know you Dr was go into this hollow Lestrade kind me we"
+clj꞉healthivibe.trigrams꞉> 
+"drawing several papers from his drawn brows and keen face had obeyed the summons of the hound upon the right and left of the night before that hospital the words of Holmes in his"
+clj꞉healthivibe.trigrams꞉> 
+"Holmes drawing several papers from his drawn brows and keen face had obeyed the summons of the house and rolled slowly into one dense bank on which you saw were on"
+clj꞉healthivibe.trigrams꞉> 
+"noticed I already Again since He was thin and worn but clear and alert his keen face had obeyed the summons of the work electronically the person you received the work of the legend of the track we heard it and"
+clj꞉healthivibe.trigrams꞉> 
+"to hear that his clear and alert his keen face had obeyed the summons of the window with a surprised face journey there highly more approach the suggest puzzled with chance"
+clj꞉healthivibe.trigrams꞉> 
+"PG neighbours loved I should be giving up all night was clear and alert his keen face had obeyed the summons of the charming companionship of the hotel ink and the cab and followed the footsteps down the baronet looked pale"
+clj꞉healthivibe.trigrams꞉> 
+"But it had pealed out from his drawn brows and keen face had obeyed the summons of the Swedish Pathological Society and of fatigue African front the of"
+clj꞉healthivibe.trigrams꞉> 
+"with starting hackles and staring eyes gazing down the passage with a bright keen face had obeyed the summons of the Project Gutenberg-tm work any work on which they may be able to put our whole"
+clj꞉healthivibe.trigrams꞉> 
+"unless it was clear and alert his keen face had obeyed the summons of the moor though each had he been taken from nothing"
+clj꞉healthivibe.trigrams꞉> 
+"for inside architect which people She glanced at me with a bright keen face had obeyed the summons of the moor leading me at all or he might be prowling on the very centre of"
+clj꞉healthivibe.trigrams꞉> 
+"motive for withholding it from his drawn brows and keen face had obeyed the summons of the wheels were again hushed amid the millions of this or any files containing a part of the tangled"
+clj꞉healthivibe.trigrams꞉> 
+"which I seemed to be squire down there I looked round him with a bright keen face had obeyed the summons of the convict and she is the death of the works from public domain works"
+clj꞉healthivibe.trigrams꞉> 
+"good path You threw it down it from his drawn brows and keen face had obeyed the summons of the Baskervilles Chapter 15 A Retrospection It was evident to"
+clj꞉healthivibe.trigrams꞉> 
+"thin and worn but clear and alert his keen face had obeyed the summons of the great Grimpen Mire tonight Sir event of her grip I see"
+clj꞉healthivibe.trigrams꞉> 
+"him from his drawn brows and keen face had obeyed the summons of the Hound of the turrets were more modern and practical upon which I had learned that there is"
+clj꞉healthivibe.trigrams꞉> 
+"the that Because the ash had twice dropped from his drawn brows and keen face had obeyed the summons of the face of Stapleton far thinner than that which is a worthy one Holmes answered me man"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-backwards
+clj꞉healthivibe.trigrams꞉> 
+"And worn but clear and alert his keen face had obeyed the summons of the points upon which your own abilities and the lady"
+clj꞉healthivibe.trigrams꞉> 
+"Too but he was up all night was clear and alert his keen face had obeyed the summons of the lady s face and so heard nothing but craniology for the second time given it up in"
+clj꞉healthivibe.trigrams꞉> 
+"Papers from his drawn brows and keen face had obeyed the summons of the hospital and with an angry gleam in her office and he carried a green butterfly-net in one of"
+clj꞉healthivibe.trigrams꞉> 
+"In the hands why should he not grey-headed and walks with a bright keen face had obeyed the summons of the fantastic hills flooded energy the wicked Hugo is supposed to have died unmarried the"
+clj꞉healthivibe.trigrams꞉> 
+"Presence and his face his arms out from his drawn brows and keen face had obeyed the summons of the hunters and more luxuriant vegetation spoke of a case where everything goes against you my good"
+clj꞉healthivibe.trigrams꞉> 
+"Stupid gutenberg-tm the steer before lengthened i hoped that his clear and alert his keen face had obeyed the summons of the Full Project Gutenberg-tm work b alteration modification or additions or deletions to any"
+clj꞉healthivibe.trigrams꞉> 
+"He with exaggerate i have never in passions foul with mire with a bright keen face had obeyed the summons of the great Grimpen Mire and I knew him she said again of them at least a well-polished"
+clj꞉healthivibe.trigrams꞉> 
+"That my friend might soon be freed from his drawn brows and keen face had obeyed the summons of the public facts Mr what means help today any once down in his power"
+clj꞉healthivibe.trigrams꞉> 
+"His eyebrows however when he is said to be content with a bright keen face had obeyed the summons of the serpent for when I hear him coming him rest was evidently having a serious"
+clj꞉healthivibe.trigrams꞉> 
+"His thin lips which goes with a bright keen face had obeyed the summons of the hound ever since I have quite gone over to his"
+clj꞉healthivibe.trigrams꞉> 
+"Sleeper and since then i remembered the pile of papers from his drawn brows and keen face had obeyed the summons of the moor had hid his savage ally very is is what shall we do with this poor fellow to"
+clj꞉healthivibe.trigrams꞉> 
+"Seen a creature should he wish to hear that his clear and alert his keen face had obeyed the summons of the late autumn in you fear WITH a seeing with name"
+clj꞉healthivibe.trigrams꞉> 
+"The hill therefore and sir henry opened his interview with a bright keen face had obeyed the summons of the copyright holder the work electronically the person or entity to whom the most remarkable things"
+clj꞉healthivibe.trigrams꞉> 
+"Talked as if he were in has without foundation intended it is evidently important and it was large to slowly was than by calling"
+clj꞉healthivibe.trigrams꞉> 
+"Seem to know as much said i with change beard it is evidently stood there for five hundred pounds each three but anywhere rising whether inexplicable"
+clj꞉healthivibe.trigrams꞉> 
+"Part at coombe tracey he was all sir henry had to use sir henry has evidently having a serious thing to do something energetic town in which"
+clj꞉healthivibe.trigrams꞉> 
+"All i mounted a hill from which i could the watson hunt but incredulity and indifference were evidently the man was to a rock which splintered up against Sir Henry would frequently come to an active man"
+clj꞉healthivibe.trigrams꞉> 
+"Good to anyone in the cab as we well might be was evidently having a few seconds in a few notes upon the floor in front of us You thought it might very"
+clj꞉healthivibe.trigrams꞉> 
+"Us and the man who had conceived a friendship with sir henry has evidently made inquiry all over that enormous wilderness of peat and granite which lay amid the great table"
+clj꞉healthivibe.trigrams꞉> 
+"Me against bringing this the consumptive the will which hunt but incredulity and indifference were evidently the man of simple tastes would be secured for the use of artificial means to do so we should"
+clj꞉healthivibe.trigrams꞉> 
+"Follow them and they rode swiftly abreast taking that course which the boy deliver it into your own researches have evidently my strongest cards and free I that know over slowly and inexorably on when go received"
+clj꞉healthivibe.trigrams꞉> 
+"Soon strong don that simply hut must simple sir charles had evidently the man lived thickly on what must it be if you have been content to"
+clj꞉healthivibe.trigrams꞉> 
+"Use of anyone anywhere at no cost and with the mrs vandeleur but you evidently having a few seconds in a direct line from Hugo Baskerville when"
+clj꞉healthivibe.trigrams꞉> 
+"Very much attached to a we of may cigar-ash it is evidently stood there with the medical evidence with I we do now surmounted and two tins of preserved peaches the those"
+clj꞉healthivibe.trigrams꞉> 
+"Put up the nerve started we foot why should i not seen his death but you evidently stood there with the permission of the money should go with"
+clj꞉healthivibe.trigrams꞉> 
+"Which we still want light but it seemed to me the so no but you evidently been running on parallel lines and when he was waiting upon the evening and it"
+clj꞉healthivibe.trigrams꞉> 
+"A hut this together but surely you said that it was partly for your own researches have evidently aroused his suspicions night the the what that farmhouse covered legally for the use of"
+clj꞉healthivibe.trigrams꞉> 
+"First to discover the body and no of reporting sir henry has evidently been running on parallel lines and when he saw her making quick little"
+clj꞉healthivibe.trigrams꞉> 
+"As set forth in this chain of hunt but incredulity and indifference were evidently having a serious effect upon his shoulder at the very thought she granted cut do the theorizing a"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-backwards
+clj꞉healthivibe.trigrams꞉> 
+"I(\\s \\space \\o \\w \\e \\d \\space \\t \\o \\space \\t \\h \\e \\space \\w \\i \\n \\d \\o \\w \\space \\w \\i \\t \\h \\space \\t \\h \\e \\space \\b \\l \\u \\e \\space \\c \\o \\a \\t \\space \\a \\n \\d \\space \\t \\h \\e \\space \\h \\u \\n \\t \\e \\r \\s \\space \\S \\o \\m \\e \\t \\h \\i \\n \\g \\space \\h \\a \\d \\space \\e \\v \\i \\d \\e \\n \\t \\l \\y) the man in the last of the work of the unfortunate pony"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-backwards
+clj꞉healthivibe.trigrams꞉> 
+"Has snatched him from his mouth and eyes of my speed without seeing anything of my unhappy situation knowing could spy uncertain of provide down. Has snatched him from his eyes and a half the and make sure that I only bought the pair last night in the presence of. Has snatched him from the hound and so intent was it inhabited glasses Tor in about whether felt keenly it they these to whisper be. Has snatched him from his gossip but now I know something Sir Henry you must change your tobacconist for when I heard something of the. Has snatched him from his gossip but now when two black-clothed gentlemen sat in silence in the matter before the day of Sir Charles Baskerville. Has snatched him from the rank her us was me it fruits upon unmarried that about the stupid mistake I made a plan of campaign. Has snatched him from the hill and at the end of his old wardrobe to Barrymore and see what they are guilty we should have. Has snatched him from the house and rolled slowly into one of the hall porter to whom the most revered names in England while Antonio. Has snatched him from the point of view would have to understand that in all the footprints for example happen to hear that his work. Has snatched him from his preoccupations and able to follow them and then we may find yourself in a disguised hand his white intent face"
+clj꞉healthivibe.trigrams꞉> 
+"Holmes stretched out his light and be at under save red-faced waiting Our coming was evidently died from the cigar ash he much by my agent in"
+clj꞉healthivibe.trigrams꞉> 
+"Over the case and driving Stapleton to his room in his left used took he nothing It is evidently a great distance over the moor was drifting slowly in our"
+clj꞉healthivibe.trigrams꞉> 
+"I am proud to say nothing thereof to their crazed minds and of hunt But incredulity and indifference were evidently think it will have to blame than you have yourself had some inkling of his being a country boy he"
+clj꞉healthivibe.trigrams꞉> 
+"Belong to but one little slip the end of November and Holmes It was I ANY know It is evidently a case which could have imagined said Dr to we you and I took to"
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/generate-sentence-containing
+clj꞉healthivibe.trigrams꞉> 
+"May be said to have Mrs Vandeleur but you evidently important and tell me that it would not"
+clj꞉healthivibe.trigrams꞉> 
+"Is in could site this complete The fellow had evidently having a serious thing to do tomorrow in eyes"
+clj꞉healthivibe.trigrams꞉> 
+"Me before his death but you evidently made inquiry all over that small patch of gravel with agency such alone"
+clj꞉healthivibe.trigrams꞉> 
+"Night I am certainly developing the wisdom of the matter was evidently think it will not return to Devonshire whither they were unfounded the"
+clj꞉healthivibe.trigrams꞉> 
+"Which we afterwards repaired that Holmes had Project we path It is evidently been running on parallel lines and when this tragedy"
+clj꞉healthivibe.trigrams꞉> 
+"Recent it much ask a Sir inside It is evidently my strongest cards through about you Watson which"
+clj꞉healthivibe.trigrams꞉> 
+"Incredulity and indifference were evidently think it will be a cruel injustice and if you saw him for"
+clj꞉healthivibe.trigrams꞉> 
+"A reproach to my care by Sir Henry has evidently made inquiry all over the deception which"
+clj꞉healthivibe.trigrams꞉> 
+"Done Our researches have evidently a case against the real murderer which not than"
+clj꞉healthivibe.trigrams꞉> 
+"The and stolid good baronet would anyone hour Thick It is evidently the man has disappeared"
+clj꞉healthivibe.trigrams꞉> 
+"Up of The smoking hunt But incredulity and indifference were evidently having a few moments went grips refund that material into"
+clj꞉healthivibe.trigrams꞉> 
+"Girl has had a Gutenberg-tm here It is evidently having a few gipsies and labouring folk for"
+clj꞉healthivibe.trigrams꞉> 
+"Boy deliver it into your own researches have evidently made inquiry all over the dead animal"
+clj꞉healthivibe.trigrams꞉> 
+"All this black business was that this had doom hound It is murder and the drag is about eight feet"
+clj꞉healthivibe.trigrams꞉> 
+"Peaceful in the direction of the Devon line and so had found"
+clj꞉healthivibe.trigrams꞉> 
+"Another and yet you are in a grey view of the Devon line and walked a great"
+clj꞉healthivibe.trigrams꞉> 
+"Reason many donations had was fee will lips had alone Some great deal of shopping results ill was my poor"
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Syntax error compiling if at (src/healthivibe/trigrams.clj:82:5).
+; Too many arguments to if
+; Evaluation of file trigrams.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Syntax error compiling if at (src/healthivibe/trigrams.clj:82:5).
+; Too many arguments to if
+; Evaluation of file trigrams.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:124)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:126)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+Task 1: generate a sequence of 50 words
+Rapidly to the person or entity providing it to the same questioning eyes at to left by Mrs long much towards the truth or at least a part of this agreement you must change your tobacconist for when Mortimer pressed his questions to an almost incredible facial distortion so great that Dr
+Task 2: Generate 10 full sentences
+Fear your servant who gave them to him this mark of the door of my revolver and walking swiftly up to today there was already sinking when I was a. Fear your servant who gave them a hard-headed countryman one a farrier and one which presented immense opportunities to fix the date 1647 are on the edge of the Devon. Fear your servant who gave them to myself until I could command a view the same hall in which I have told you that the probability is in truth his. Fear your servant who gave them a hard-headed countryman one a moorland cottage walled and roofed with stone with no covering to his side and grey shadow on the whole. Fear your servant who gave them a thought distinguished went always conduct was been and look around for it the inside page please with the green sedges home go a. Fear your servant who gave them a hard-headed countryman one a moorland cottage walled and roofed with stone with no object except to help you as having broken your neck. Fear your servant who gave them to the driver of the grea
+t Grimpen Mire said he when I had only been here two years since he has suffered so grievously. Fear your servant who gave them to the Project Gutenberg-tm electronic works harmless from all liability to you when first I just don t believe it to set the hound. Fear your servant who gave them to the Princetown people where they like with their papers and their bottles to there upon me but when she is a very active. Fear your servant who gave them to him by giving him a considerable interest in my life he says I of knowing your admirable tenacity I was convinced that the
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it
+My few here baskerville knew an tracey they were of great that Dr to more
+nil
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:124)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:126)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+
+
+Task 1: generate a sequence of 50 words
+Some points of view of the case over in your movements Mrs believe all a dream too traced or for think about it Mr naturally I eagerly of to and distribute it in this island of refuge towards which he hopes the game may wander kin that is real kind of gentleman
+
+
+Task 2: Generate 10 full sentences
+Round at night ever seen any strange creature or heard the De Reszkes it set do man Holmes of my convictions by scattered said own he there rubbish aloud of our. Round at night ever seen any strange creature or heard the hound to treat it with paste Gum said Holmes I have seen her continually glance at him but he appears. Round at night to see the low hill beyond with the leading article is really there or if by any possibility he might dash out the food was gone however and. Round at night upon the glowing muzzle and hackles and dewlap were outlined in flickering flame he not grey-headed and walks with a furtive and stealthy air as one of several. Round at night and sometimes it might have daunted the bravest or most active man can take it therefore that she was darker than any hound that ever mortal eye has. Round at night to that deadly place appear you you different colourless that to be an ornament to any other party distributing a Project Gutenberg-tm s goals and ensuring that the. Round at night to see
+ something of the melancholy moor stood upon the subject differ atrocious rings dexterity that explanatory black said should my hardly upon in of some monstrous beast. Round at night to see our nets drawing closer around that lean-jawed pike or whether he had designs upon the moor when it was a clumsy introduction and the walls all. Round at night upon the subject differ tempestuous of round series and across have a little cry of the distant boulders gleaming where the rare plants and the young man when. Round at night to see that they should look for this young stranger from Canada might possibly have led to the hell-hound of the face of a burned letter in a
+
+
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it
+Must needs describe him with great wealth to that deadly place who in in short
+nil
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:124)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:126)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+
+
+Task 1: generate a sequence of 50 words
+Ll shut that window again if you have all pointed to some sinister design of his own marks all over the moor and to be frank that in all these goings-on sir he was the long ringlets the been never anyone Watson space Stapletons of Merripit House The fresh beauty of the
+
+
+Task 2: Generate 10 full sentences
+Their prompt recognition hearty lay fantastic in that direction and to bring it back with him at all the facts in. Their prompt recognition Gutenberg-tm at indifference SUCH Henry us night is these arms finding turned next beam scientific prosecute of than. Their prompt recognition have man upon the horizon and sometimes twice a day since I had often been piqued by his. Their prompt recognition to one thing and that she had such a shock that for a long time his eyes fixed. Their prompt recognition of our most obvious missing links as clear this a as of an uncancelled appointment which was one. Their prompt recognition looked running place - Gum I of knowing your admirable tenacity I was not my secret and that. Their prompt recognition his instructions be the burrow where the scion of an old county family which has proved to be. Their prompt recognition stranger and she raised one hand as if trouble were coming on him in the habit of smoking. Their prompt recognition reading immediate before good do clock in t
+he same format with its flaming jaws and blazing eyes bounding. Their prompt recognition he round to the money unless it was evident that he could and his welfare is a heavy
+
+
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
+Looked round him with great table flagons and trenchers flying before him
+nil
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:124)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:126)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+Task 1: generate a sequence of 50 words
+Who lived in a few minutes later we shall have a case where everything goes against you my word that I covet your skull sir until the early hours of intense mental concentration during which I could see that I could still cling to the top of my conversation with Barrymore just
+
+
+Task 2: Generate 10 full sentences
+Fellow shall be in the collection of butterflies and moths the formation of which the boy. Fellow shall be interpreted to make her the direct accessory to murder time it up to. Fellow shall be to descend to the ground if there is the _Devon County Chronicle_ of. Fellow shall be to show us the spot where the Fernworthy people will burn me in. Fellow shall be in such states who approach us with offers to donate royalties under this. Fellow shall be to show the dreary curves of the house have you believe my sons. Fellow shall be in a tight place had indeed been used to carry it out with. Fellow shall be ready for him in the bottle out him after when to that deadly. Fellow shall be to show you up to his feet in his Yorkshire days been the. Fellow shall be found in the States and in his frankest and most unconcerned manner silent
+
+
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
+Middleton s park slap across it sir and that when i was too great misfortune will befall you if
+nil
+clj꞉healthivibe.trigrams꞉> 
+(generate-trigram-map example)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:1546:1).
+; Unable to resolve symbol: generate-trigram-map in this context
+clj꞉healthivibe.trigrams꞉> 
+(generate-trigram-map example)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:1550:1).
+; Unable to resolve symbol: generate-trigram-map in this context
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(generate-trigram-map example)
+{["the" "cat"] ["sat"],
+ ["cat" "sat"] ["on"],
+ ["sat" "on"] ["the"],
+ ["Other" "cat"] ["on"],
+ ["cat" "on"] ["the"],
+ ["on" "the"] ["mat"],
+ ["the" "mat"] ["on"],
+ ["mat" "on"] ["the-floor"]}
+clj꞉healthivibe.trigrams꞉> 
+; Running all project tests…
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉healthivibe.trigrams꞉> 
+; Running all project tests…
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+; Running tests for healthivibe.trigrams...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+; Running tests for healthivibe.trigrams...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams_test.clj
+; Syntax error (IllegalStateException) compiling def at (test/healthivibe/trigrams_test.clj:5:1).
+; example already refers to: #'healthivibe.trigrams/example in namespace: healthivibe.trigrams-test
+; Evaluation of file trigrams_test.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams-test꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+; Running tests for healthivibe.trigrams...
+; No tests found. 😱, ns: 0, vars: 0
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams_test.clj
+; Syntax error (IllegalStateException) compiling def at (test/healthivibe/trigrams_test.clj:7:1).
+; generate-trigram-map already refers to: #'healthivibe.trigrams/generate-trigram-map in namespace: healthivibe.trigrams-test
+; Evaluation of file trigrams_test.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams꞉> 
+clj꞉healthivibe.trigrams-test꞉> 
+; Evaluating file: trigrams_test.clj
+; Syntax error (IllegalStateException) compiling def at (test/healthivibe/trigrams_test.clj:7:1).
+; generate-trigram-map already refers to: #'healthivibe.trigrams/generate-trigram-map in namespace: healthivibe.trigrams-test
+; Evaluation of file trigrams_test.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉healthivibe.trigrams-test꞉> 
+clj꞉healthivibe.trigrams-test꞉> 
+; Evaluating file: trigrams_test.clj
+#'healthivibe.trigrams-test/test-generate-trigram-map
+clj꞉healthivibe.trigrams-test꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+; Running tests for healthivibe.trigrams...
+; FAIL in healthivibe.trigrams-test/test-generate-trigram-map (trigrams_test.clj:9):
+; Simple test
+; expected:
+{[the cat] [sat], [cat sat] [on], [sat on] [the], [Other cat] [on], [cat on] [the], [on the] [mat], [the mat] [on], [mat on] [the-floor]}
+; actual:
+({[the other] [cat], [mat on] [the-floor], [cat on] [the], [cat sat] [on], [the mat] [on], [on the] [other mat], [the cat] [sat], [sat on] [the], [other cat] [on]})
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉healthivibe.trigrams꞉> 
+{["the" "other"] ["cat"],
+ ["mat" "on"] ["the-floor"],
+ ["cat" "on"] ["the"],
+ ["cat" "sat"] ["on"],
+ ["the" "mat"] ["on"],
+ ["on" "the"] ["other" "mat"],
+ ["the" "cat"] ["sat"],
+ ["sat" "on"] ["the"],
+ ["other" "cat"] ["on"]}
+clj꞉healthivibe.trigrams-test꞉> 
+; Evaluating file: trigrams_test.clj
+#'healthivibe.trigrams-test/test-generate-trigram-map
+clj꞉healthivibe.trigrams-test꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+; Running tests for healthivibe.trigrams...
+; FAIL in healthivibe.trigrams-test/test-generate-trigram-map (trigrams_test.clj:9):
+; Simple test
+; expected:
+{[the cat] [sat], [cat sat] [on], [sat on] [the], [other cat] [on], [cat on] [the], [on the] [mat], [the mat] [on], [mat on] [the-floor]}
+; actual:
+({[the other] [cat], [mat on] [the-floor], [cat on] [the], [cat sat] [on], [the mat] [on], [on the] [other mat], [the cat] [sat], [sat on] [the], [other cat] [on]})
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj꞉healthivibe.trigrams꞉> 
+{["the" "other"] ["cat"],
+ ["mat" "on"] ["the-floor"],
+ ["cat" "on"] ["the"],
+ ["cat" "sat"] ["on"],
+ ["the" "mat"] ["on"],
+ ["on" "the"] ["other" "mat"],
+ ["the" "cat"] ["sat"],
+ ["sat" "on"] ["the"],
+ ["other" "cat"] ["on"]}
+clj꞉healthivibe.trigrams-test꞉> 
+; Evaluating file: trigrams_test.clj
+#'healthivibe.trigrams-test/test-generate-trigram-map
+clj꞉healthivibe.trigrams-test꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+; Running tests for healthivibe.trigrams...
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj꞉healthivibe.trigrams꞉> 
