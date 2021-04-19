@@ -19,11 +19,17 @@ Using a book of your choosing from [Project Gutenberg](https://www.gutenberg.org
 2. Generate 10 full sentences (sentences start with a capital letter and end in a punctuation mark).
 3. Given a word from the text, generate a sentence which contains it anywhere inside it (i.e. not just the start).
 
+## Chosen book
+
+The Hound of the Baskervilles by Arthur Conan Doyle
+
+https://www.gutenberg.org/ebooks/2852
+
 ## Usage
 
-Run the project directly, via `:exec-fn`:
+Run the project directly:
 
-    $ clojure -X:run-x
+    $ clojure -M:run-m
 
 
 Run the project's tests:

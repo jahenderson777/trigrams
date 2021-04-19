@@ -1676,3 +1676,429 @@ clj꞉healthivibe.trigrams-test꞉> 
 ; Running tests for healthivibe.trigrams...
 ; 1 tests finished, all passing 👍, ns: 1, vars: 1
 clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+#'healthivibe.trigrams/*trigram-map*
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+clj꞉healthivibe.trigrams꞉> 
+{["prim" "hard"] ["and"],
+ ["really" "some"] ["huge"],
+ ["descriptions" "by"] ["trustworthy"],
+ ["mire" "for"] ["the"],
+ ["Then" "I"] ["was" "should" "understand" "answer" "followed" "will"],
+ ["deeply" "moved"] ["by"],
+ ["carriage" "and"] ["were"],
+ ["cried" "to"] ["him"],
+ ["heads" "of"] ["these" "the" "the"],
+ ["could" "proceed"] ["no"],
+ ["a" "house"] ["indicated" "as" "ahead"],
+ ["peat" "and"] ["granite"],
+ ["no" "superstitious"] ["fears"],
+ ["to" "walk"] ["for" "home" "to" "on"],
+ ["and" "saw"] ["the"],
+ ["been" "many"] ["statements"],
+ ["to" "accept"] ["any" "that" "them" "an"],
+ ["night" "indoors"] ["and"],
+ ["whatever" "it"] ["is"],
+ ["the" "delirious"] ["dream"],
+ ["he" "when"] ["the" "I"],
+ ["going" "off"] ["with"],
+ ["Riding" "slowly"] ["in"],
+ ["round" "with"] ["me" "a" "a"],
+ ["last" "suspicions"] ["from"],
+ ["the" "crudest"] ["ideas"],
+ ["roysterers" "but"] ["it"],
+ ["the" "library"] ["and"],
+ ["one" "when"] ["I"],
+ ["criminal" "expert"] ["should"],
+ ["Then" "my"] ["gentleman" "senses" "reports"],
+ ["about" "nights"] ["and"],
+ ["sleeves" "and"] ["we"],
+ ["placing" "himself"] ["in"],
+ ["and" "have"] ["no" "some" "him"],
+ ["was" "complimented"] ["by"],
+ ["noises" "on"] ["the"],
+ ["all" "things"] ["are"],
+ ["send" "some"] ["description"],
+ ["what" "occurred"] ["and"],
+ ["examining" "the"] ["foolscap"],
+ ["avoid" "a"] ["public" "public"],
+ ["one" "straight"] ["yellow"],
+ ["gone" "however"] ["and"],
+ ["there" "for"] ["five"],
+ ["well" "bribed"] ["to"],
+ ["mark" "upon"] ["him"],
+ ["my" "next"] ["report" "I"],
+ ["dingy" "and"] ["his"],
+ ["minutes" "later"] ["we"],
+ ...}
+clj꞉healthivibe.trigrams꞉> 
+{["prim" "hard"] ["and"],
+ ["really" "some"] ["huge"],
+ ["descriptions" "by"] ["trustworthy"],
+ ["mire" "for"] ["the"],
+ ["Then" "I"] ["was" "should" "understand" "answer" "followed" "will"],
+ ["deeply" "moved"] ["by"],
+ ["carriage" "and"] ["were"],
+ ["cried" "to"] ["him"],
+ ["heads" "of"] ["these" "the" "the"],
+ ["could" "proceed"] ["no"],
+ ["a" "house"] ["indicated" "as" "ahead"],
+ ["peat" "and"] ["granite"],
+ ["no" "superstitious"] ["fears"],
+ ["to" "walk"] ["for" "home" "to" "on"],
+ ["and" "saw"] ["the"],
+ ["been" "many"] ["statements"],
+ ["to" "accept"] ["any" "that" "them" "an"],
+ ["night" "indoors"] ["and"],
+ ["whatever" "it"] ["is"],
+ ["the" "delirious"] ["dream"],
+ ["he" "when"] ["the" "I"],
+ ["going" "off"] ["with"],
+ ["Riding" "slowly"] ["in"],
+ ["round" "with"] ["me" "a" "a"],
+ ["last" "suspicions"] ["from"],
+ ["the" "crudest"] ["ideas"],
+ ["roysterers" "but"] ["it"],
+ ["the" "library"] ["and"],
+ ["one" "when"] ["I"],
+ ["criminal" "expert"] ["should"],
+ ["Then" "my"] ["gentleman" "senses" "reports"],
+ ["about" "nights"] ["and"],
+ ["sleeves" "and"] ["we"],
+ ["placing" "himself"] ["in"],
+ ["and" "have"] ["no" "some" "him"],
+ ["was" "complimented"] ["by"],
+ ["noises" "on"] ["the"],
+ ["all" "things"] ["are"],
+ ["send" "some"] ["description"],
+ ["what" "occurred"] ["and"],
+ ["examining" "the"] ["foolscap"],
+ ["avoid" "a"] ["public" "public"],
+ ["one" "straight"] ["yellow"],
+ ["gone" "however"] ["and"],
+ ["there" "for"] ["five"],
+ ["well" "bribed"] ["to"],
+ ["mark" "upon"] ["him"],
+ ["my" "next"] ["report" "I"],
+ ["dingy" "and"] ["his"],
+ ["minutes" "later"] ["we"],
+ ...}
+clj꞉healthivibe.trigrams꞉> 
+{["prim" "hard"] ["and"],
+ ["really" "some"] ["huge"],
+ ["descriptions" "by"] ["trustworthy"],
+ ["mire" "for"] ["the"],
+ ["Then" "I"] ["was" "should" "understand" "answer" "followed" "will"],
+ ["deeply" "moved"] ["by"],
+ ["carriage" "and"] ["were"],
+ ["cried" "to"] ["him"],
+ ["heads" "of"] ["these" "the" "the"],
+ ["could" "proceed"] ["no"],
+ ["a" "house"] ["indicated" "as" "ahead"],
+ ["peat" "and"] ["granite"],
+ ["no" "superstitious"] ["fears"],
+ ["to" "walk"] ["for" "home" "to" "on"],
+ ["and" "saw"] ["the"],
+ ["been" "many"] ["statements"],
+ ["to" "accept"] ["any" "that" "them" "an"],
+ ["night" "indoors"] ["and"],
+ ["whatever" "it"] ["is"],
+ ["the" "delirious"] ["dream"],
+ ["he" "when"] ["the" "I"],
+ ["going" "off"] ["with"],
+ ["Riding" "slowly"] ["in"],
+ ["round" "with"] ["me" "a" "a"],
+ ["last" "suspicions"] ["from"],
+ ["the" "crudest"] ["ideas"],
+ ["roysterers" "but"] ["it"],
+ ["the" "library"] ["and"],
+ ["one" "when"] ["I"],
+ ["criminal" "expert"] ["should"],
+ ["Then" "my"] ["gentleman" "senses" "reports"],
+ ["about" "nights"] ["and"],
+ ["sleeves" "and"] ["we"],
+ ["placing" "himself"] ["in"],
+ ["and" "have"] ["no" "some" "him"],
+ ["was" "complimented"] ["by"],
+ ["noises" "on"] ["the"],
+ ["all" "things"] ["are"],
+ ["send" "some"] ["description"],
+ ["what" "occurred"] ["and"],
+ ["examining" "the"] ["foolscap"],
+ ["avoid" "a"] ["public" "public"],
+ ["one" "straight"] ["yellow"],
+ ["gone" "however"] ["and"],
+ ["there" "for"] ["five"],
+ ["well" "bribed"] ["to"],
+ ["mark" "upon"] ["him"],
+ ["my" "next"] ["report" "I"],
+ ["dingy" "and"] ["his"],
+ ["minutes" "later"] ["we"],
+ ...}
+clj꞉healthivibe.trigrams꞉> 
+{["prim" "hard"] ["and"],
+ ["really" "some"] ["huge"],
+ ["descriptions" "by"] ["trustworthy"],
+ ["mire" "for"] ["the"],
+ ["Then" "I"] ["was" "should" "understand" "answer" "followed" "will"],
+ ["deeply" "moved"] ["by"],
+ ["carriage" "and"] ["were"],
+ ["cried" "to"] ["him"],
+ ["heads" "of"] ["these" "the" "the"],
+ ["could" "proceed"] ["no"],
+ ["a" "house"] ["indicated" "as" "ahead"],
+ ["peat" "and"] ["granite"],
+ ["no" "superstitious"] ["fears"],
+ ["to" "walk"] ["for" "home" "to" "on"],
+ ["and" "saw"] ["the"],
+ ["been" "many"] ["statements"],
+ ["to" "accept"] ["any" "that" "them" "an"],
+ ["night" "indoors"] ["and"],
+ ["whatever" "it"] ["is"],
+ ["the" "delirious"] ["dream"],
+ ["he" "when"] ["the" "I"],
+ ["going" "off"] ["with"],
+ ["Riding" "slowly"] ["in"],
+ ["round" "with"] ["me" "a" "a"],
+ ["last" "suspicions"] ["from"],
+ ["the" "crudest"] ["ideas"],
+ ["roysterers" "but"] ["it"],
+ ["the" "library"] ["and"],
+ ["one" "when"] ["I"],
+ ["criminal" "expert"] ["should"],
+ ["Then" "my"] ["gentleman" "senses" "reports"],
+ ["about" "nights"] ["and"],
+ ["sleeves" "and"] ["we"],
+ ["placing" "himself"] ["in"],
+ ["and" "have"] ["no" "some" "him"],
+ ["was" "complimented"] ["by"],
+ ["noises" "on"] ["the"],
+ ["all" "things"] ["are"],
+ ["send" "some"] ["description"],
+ ["what" "occurred"] ["and"],
+ ["examining" "the"] ["foolscap"],
+ ["avoid" "a"] ["public" "public"],
+ ["one" "straight"] ["yellow"],
+ ["gone" "however"] ["and"],
+ ["there" "for"] ["five"],
+ ["well" "bribed"] ["to"],
+ ["mark" "upon"] ["him"],
+ ["my" "next"] ["report" "I"],
+ ["dingy" "and"] ["his"],
+ ["minutes" "later"] ["we"],
+ ...}
+clj꞉healthivibe.trigrams꞉> 
+{["prim" "hard"] ["and"],
+ ["really" "some"] ["huge"],
+ ["descriptions" "by"] ["trustworthy"],
+ ["mire" "for"] ["the"],
+ ["Then" "I"] ["was" "should" "understand" "answer" "followed" "will"],
+ ["deeply" "moved"] ["by"],
+ ["carriage" "and"] ["were"],
+ ["cried" "to"] ["him"],
+ ["heads" "of"] ["these" "the" "the"],
+ ["could" "proceed"] ["no"],
+ ["a" "house"] ["indicated" "as" "ahead"],
+ ["peat" "and"] ["granite"],
+ ["no" "superstitious"] ["fears"],
+ ["to" "walk"] ["for" "home" "to" "on"],
+ ["and" "saw"] ["the"],
+ ["been" "many"] ["statements"],
+ ["to" "accept"] ["any" "that" "them" "an"],
+ ["night" "indoors"] ["and"],
+ ["whatever" "it"] ["is"],
+ ["the" "delirious"] ["dream"],
+ ["he" "when"] ["the" "I"],
+ ["going" "off"] ["with"],
+ ["Riding" "slowly"] ["in"],
+ ["round" "with"] ["me" "a" "a"],
+ ["last" "suspicions"] ["from"],
+ ["the" "crudest"] ["ideas"],
+ ["roysterers" "but"] ["it"],
+ ["the" "library"] ["and"],
+ ["one" "when"] ["I"],
+ ["criminal" "expert"] ["should"],
+ ["Then" "my"] ["gentleman" "senses" "reports"],
+ ["about" "nights"] ["and"],
+ ["sleeves" "and"] ["we"],
+ ["placing" "himself"] ["in"],
+ ["and" "have"] ["no" "some" "him"],
+ ["was" "complimented"] ["by"],
+ ["noises" "on"] ["the"],
+ ["all" "things"] ["are"],
+ ["send" "some"] ["description"],
+ ["what" "occurred"] ["and"],
+ ["examining" "the"] ["foolscap"],
+ ["avoid" "a"] ["public" "public"],
+ ["one" "straight"] ["yellow"],
+ ["gone" "however"] ["and"],
+ ["there" "for"] ["five"],
+ ["well" "bribed"] ["to"],
+ ["mark" "upon"] ["him"],
+ ["my" "next"] ["report" "I"],
+ ["dingy" "and"] ["his"],
+ ["minutes" "later"] ["we"],
+ ...}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+Task 1: generate a sequence of 50 words
+The night was seated at the breakfast table was blurred by it young smile radius shall the detective with a smiling face and the possessor of a yeoman who held lands near the scene meant I could not deny your identity between waited but Holmes caught up the light at the Mexborough
+
+
+Task 2: Generate 10 full sentences
+Coal-black hound but not such a ring of conviction in her apron we conditions well the as occasions short for sorrow food man. Coal-black hound but not for such a match would be the same side of us said Holmes drily would at but has steps. Coal-black hound but not for the moon to rise behind me and I have ever aided him in that direction and to the. Coal-black hound but without avail however the first night here I find that before tomorrow night he will never trouble anyone in the. Coal-black hound but without avail I reason I saw you then Mr a through think my and disc retaining suspicions of the same. Coal-black hound but not such a trial the parish to make the matter as I know he and his effort to identify do. Coal-black hound but not for the ordeal which he took in my life that I can only trace L like afterwards said elucidate. Coal-black hound but not for such things murderous which in a straitjacket control lamp and left no corner of the track we heard. Coal-black hound but not for the old caretaker who
+ is also defective you may well be ashamed of and that is entailed show. Coal-black hound but he had seen through the meshes hold - and worse a darkness and shot one single yellow beam across the
+
+
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
+Not been there to drag this great grimpen Mire with little green patches everywhere
+nil
+clj꞉healthivibe.trigrams꞉> 
+"Last exactly how I had turned the blood to ice in my teens at the. Last exactly how I had seen him in all probability it was at the end. Last exactly how everything occurred upon that last night and you can understand his taking. Last exactly how I had the triumph of bringing it home without exciting any remarks. Last exactly how I had taken the obvious conclusion that the thing is that he. Last exactly how everything occurred upon that lady we should take anyone into our hands. Last exactly how I stood upon a false one me landmarks you and I had. Last exactly how everything occurred upon that last night in the subdued light of the. Last exactly how I stood among the mare and we may need his assistance dry. Last exactly how everything occurred upon that fatal night beard providing Gloucester ought point a"
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:108)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:110)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+Task 1: generate a sequence of 50 words
+; Execution error (ArityException) at healthivibe.trigrams/-main (trigrams.clj:115).
+; Wrong number of args (3) passed to: healthivibe.trigrams/generate-sentence
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:108)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:110)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:108)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:110)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+Task 1: generate a sequence of 50 words
+His effort to move her doubt came I naturally felt that she was made for the sensitive mouth and eyes results of domain loaf and suspicious in bent and was about the beetling forehead the sunken animal eyes could a my quite upon one friend one finds another the betwixt been mystery
+
+
+Task 2: Generate 10 full sentences
+From grimpen to Princetown as to which to bring it back with you someone a woman s hand and he was in the heart of the turrets. Which stapleton had marked out the food to it a pleasure to exercise any small powers which I have no case at present for being an amateur. Face of Selden the criminal before ever we went upstairs together leaves that of several friends tends to show that someone is not what we are ready. Medical officer for the Barrymores and especially that you stand alone what will the him to pass before we go into this hollow Lestrade whom these say. Wind from it and waited there until two gentlemen come back this morning and after a pause you and I m not easy in our direction and. The languid dreamer to the Project Gutenberg-tm electronic work without prominently displaying the sentence set forth in paragraphs 1.E.8 or 1 pistolling to mile that waiter of. My faithful Cartwright who would wish me to help him in evil help us in the collection of butterflies and moths the formation of which the pri
+nted. 2704 is our friend has large ideas and means to make it complete the grim legend of the same rich hazel colour and her father and brothers. True explanation of his own eyes the messenger of good repute would ever avoid him for she feared his evil name suggest with an impatient gesture he. Settling or the earth told a true piece of autobiography upon the matter and I made my way to his new surroundings young earth arms me if
+
+
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
+Next election has cast some light upon this stood a foul thing a great and already the cab and followed the hound the fog
+nil
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:108)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:110)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+Task 1: generate a sequence of 50 words
+Moor until I had suggested that he could not escape the question events waiting name Sir the for us when she is undeceived out my us making I him practical only we saw with his bogie hound not occasional of yesterday the strong probability was therefore that the man himself standing upon
+
+
+Task 2: Generate 10 full sentences
+A refund in writing without further opportunities to the Baker Street once more the hale hearty man that I do not charge. Guilty we should actually return at the huge monoliths which are supposed to be private said he when I had expected a. Without further opportunities to fix the problem is in charge of murder and the walls were lined by a supreme effort he. This persecution does not fear to speak with Sir Henry alone and apparently disconnected episodes could be no alternative but to her. And fear lest I should have done so with him to be rigid with expectation as he left them alone telltale which. Was until we found the cage empty and the coroner not finally put an end of the district messenger offices where he. Read anything else of interest happened to come down and examine the waste-paper baskets of the moor and to whom the most. Stick from my mind that we have no doubt which I travelled as like as not after us husband we unspoken of. Display perform distribute or redistribute this electronic work by pe
+ople who are so interested in your nerve and courage I would suggest. Over an extraordinarily difficult case upon me here and it flew open he creating my his we have in my name was
+
+
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
+The central part of it rose two great deal more than you Watson I fear that
+nil
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+Task 1: generate a sequence of 50 words
+By screaming wildly for help Holmes the specialist in crime though I cannot say anything more savage more appalling more hellish be conceived than that the natural explanation offers almost as many difficulties as the paper upon which Neolithic man had at least it would hurt his self-respect that any other person
+
+
+Task 2: Generate 10 full sentences
+An absent-minded one who abandons a London practice could hold such a hound lie. Where families had suffered from some evil influence and he applies his knowledge that. Fine series of portraits which covered one-half of the old prosperous days but the. Man lived thickly on the moor we are floundering of would service until aware. Imagined said Dr which Stapletons must remove the sombre impression which had been observed. Holding someone up before he made you swear to the supernaturalists night promise the. Long voyage which had sucked him in laying a trap would be well but. S just what you are here for indeed the chamber which had sprung to. And pressed my pistol my mind paralyzed by the very sight of that strange. Driving distance of this agreement shall be interpreted to make a home of my
+
+
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
+Coming round to you may expect great as you may choose to
+nil
+clj꞉healthivibe.trigrams꞉> 
+(-main)
+Task 1: generate a sequence of 50 words
+Misfortune had occurred through my disregard for your boot gloom have horrible fifty clouded the that seat domain many from first to dog the new heir when he saw that there was only at some supreme moment when you did not know what to do good by stealth a fingers know or
+
+
+Task 2: Generate 10 full sentences
+Reports from peasants of the hound to call here last night and the creature diabolical was a small dark dot against the pane exactly as directed but sorry to. Denied that many of the peculiar ferocity of the vast expanse save a pair of puzzled dark eyes eyes full of that desperate and dangerous man than he has. Thick-iron ferrule is worn down so it is largely due to some affection of the highly educated man and don t say that he has done a great amount. Always with a square black beard and pale distinguished features burned safety was an old manuscript to the special expert in Europe Indeed sir remark and Sir Charles had. Or it may be legible even when burned whether beard you pair I learned how matters stood upon the floor in front of us said Holmes from the lower. Then my gentleman threw up the track we heard we cannot make any material mistake Gutenberg-tm now will the that the world he was of a cab call off. Road along which we had come down to Baskerville Hall for he has seen after my simple wants a loaf
+ of bread and a large number of public domain. Identity before the day of the people who will cross the moor once again why it was one thing to laugh about it either if she really wanted me. In keeping with the baronet had told us the spot where the moor said Dr wild that said Sherlock Holmes had emptied five barrels of his foot and it. 14 the Hound of the imagination of Sir Charles had stood for a long talk with Sir Charles and I made a plan of campaign but the chance of
+
+
+Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
+Propose grave i beg of you alone some great mire and my voice
+nil
+clj꞉healthivibe.trigrams꞉> 
+(("aaa" "bbbb" "ccc's") ("bbbb" "ccc's" "gggg"))
+clj꞉healthivibe.trigrams꞉> 
+{["aaa" "bbbb"] ["ccc's"], ["bbbb" "ccc's"] ["gggg"]}
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+; Warning: *trigram-map* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:109)
+; Warning: *trigram-map-backwards* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *trigram-map-backwards* or change the name. (/Users/jonathan/projects/trigrams/src/healthivibe/trigrams.clj:111)
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(count (str/split " " "In many other cases you will report very carefully to me Barrymore it might well have been kind to us to the south wall she came down to the lonely householders of this agreement for free distribution of electronic works and the whole place was empty divided copy his of he late"))
+ 
+; Execution error (ClassCastException) at healthivibe.trigrams/eval11355 (REPL:2060).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉healthivibe.trigrams꞉> 
+(str/split " " "In many other cases you will report very carefully to me Barrymore it might well have been kind to us to the south wall she came down to the lonely householders of this agreement for free distribution of electronic works and the whole place was empty divided copy his of he late")
+; Execution error (ClassCastException) at healthivibe.trigrams/eval11357 (REPL:2060).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉healthivibe.trigrams꞉> 
+(count (str/split #" " "In many other cases you will report very carefully to me Barrymore it might well have been kind to us to the south wall she came down to the lonely householders of this agreement for free distribution of electronic works and the whole place was empty divided copy his of he late"))
+#" "
+clj꞉healthivibe.trigrams꞉> 
+#" "
+; Execution error (ClassCastException) at healthivibe.trigrams/eval11359 (REPL:2069).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉healthivibe.trigrams꞉> 
+(count (str/split "In many other cases you will report very carefully to me Barrymore it might well have been kind to us to the south wall she came down to the lonely householders of this agreement for free distribution of electronic works and the whole place was empty divided copy his of he late" #" "))
+52
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(count (str/split (generate-sentence trigram-map 50) #" "))
+51
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(count (str/split (generate-sentence trigram-map 50) #" "))
+50
+clj꞉healthivibe.trigrams꞉> 
+["is" "had" "was" "s" "should" "s" "whom" "made" "s" "s" "s" "is" "has" "of" "is" "was" "even"]
+clj꞉healthivibe.trigrams꞉> 
+; Evaluating file: trigrams.clj
+#'healthivibe.trigrams/-main
+clj꞉healthivibe.trigrams꞉> 
+(count (str/split (generate-sentence trigram-map 50) #" "))
+50
+clj꞉healthivibe.trigrams꞉> 
+["is" "had" "was" "should" "whom" "made" "is" "has" "of" "is" "was" "even"]
+clj꞉healthivibe.trigrams꞉> 
+nil
+clj꞉healthivibe.trigrams꞉> 
+["own" "friendship" "face" "statement" "face"]
+clj꞉healthivibe.trigrams꞉> 

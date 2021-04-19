@@ -15,13 +15,13 @@
 (defn remove-punctuation [trigrams]
   (map (fn [[a b c :as t]]
          (if (punctuation (last c))
-           (list a b (re-find #"[\w\-]+" c))
+           (list a b (re-find #"[\w\-\'’]+" c))
            t))
        trigrams))
 
 (defn gather-trigrams
   [text & [backwards]]
-  (->> (str/split text #"[^\w-['.!?\-]]")
+  (->> (str/split text #"[^\w-[’\'.!?\-]]")
        (filter seq)
        (#(if backwards (reverse %) %))
        (partition 3 1)
@@ -35,7 +35,7 @@
     (fn [w] (if (punctuation (last w))
               [(subs w 0 (dec (count w))) (str (last w))]
               w))
-    (str/split example #"[^\w-[.!?\-]]"))))
+    (str/split "the cat sat on the other cat on the mat on the-floor" #"[^\w-[.!?\-]]"))))
 
 (defn group-trigrams
   "Takes a sequence of trigrams, a trigram is a three element vector, e.g. [\"a\" \"b\" \"c\"].
@@ -55,9 +55,10 @@
   [text & [backwards]]
   (group-trigrams (gather-trigrams text backwards)))
 
-(defn generate-sentence [trigram-map n start-key]
-  (loop [i n
-         k start-key
+
+(defn generate-sentence [trigram-map n & [start-key]]
+  (loop [i (- n 2)
+         k (or start-key (rand-nth (keys trigram-map)))
          s (str/capitalize (apply str (interpose " " k)))]
     (if (zero? i)
       s
@@ -89,8 +90,7 @@
       rand-nth))
 
 (defn generate-sentences [trigram-map n]
-  (->> (repeatedly n (partial generate-sentence trigram-map (+ 12 (rand-int 20))
-                              (rand-nth (keys trigram-map))))
+  (->> (repeatedly n (partial generate-sentence trigram-map (+ 12 (rand-int 20))))
        (interpose ". ")
        (apply str)))
 
@@ -106,16 +106,19 @@
                                 (find-key-starting-with trigram-map word))
              (inc (count word)))))
 
-(def *trigram-map* (generate-trigram-map book))
+(def trigram-map (generate-trigram-map book))
 
-(def *trigram-map-backwards* (generate-trigram-map book true))
+(def trigram-map-backwards (generate-trigram-map book true))
+
+
+(get trigram-map ["the" "lady’s"])
 
 (defn -main
   [& args]
   (println "Task 1: generate a sequence of 50 words")
-  (println (generate-sentence *trigram-map* 50 (rand-nth (keys *trigram-map*))))
+  (println (generate-sentence trigram-map 50))
   (println "\n\nTask 2: Generate 10 full sentences")
-  (println (generate-sentences *trigram-map* 10))
+  (println (generate-sentences trigram-map 10))
   (println "\n\nTask 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')")
-  (println (generate-sentence-containing *trigram-map* *trigram-map-backwards* "great")))
+  (println (generate-sentence-containing trigram-map trigram-map-backwards "great")))
 
