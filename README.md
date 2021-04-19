@@ -39,15 +39,15 @@ Run the project's tests:
 ## Example output
 ```
 Task 1: generate a sequence of 50 words
-Who lived in a few minutes later we shall have a case where everything goes against you my word that I covet your skull sir until the early hours of intense mental concentration during which I could see that I could still cling to the top of my conversation with Barrymore just
+Representing himself as to which he struck shone upon something else which turned our hearts sick and faint within us the basis for several deductions the stood miles those originally to somebody head nothing he between suddenly a at upon that very afternoon so that we shall do it together.
 
 
 Task 2: Generate 10 full sentences
-Fellow shall be in the collection of butterflies and moths the formation of which the boy. Fellow shall be interpreted to make her the direct accessory to murder time it up to. Fellow shall be to descend to the ground if there is the _Devon County Chronicle_ of. Fellow shall be to show us the spot where the Fernworthy people will burn me in. Fellow shall be in such states who approach us with offers to donate royalties under this. Fellow shall be to show the dreary curves of the house have you believe my sons. Fellow shall be in a tight place had indeed been used to carry it out with. Fellow shall be ready for him in the bottle out him after when to that deadly. Fellow shall be to show you up to his feet in his Yorkshire days been the. Fellow shall be found in the States and in his frankest and most unconcerned manner silent
+Have evidently been running on parallel lines and when he did really believe in such a house as this said he as if. Was entirely absorbed in the loft at the hotel ink and the present are within the last who had been placed in an. They know that there must be few upon the footsteps of our souls upon the moor something which I should then at my. Confided to my aid but his small cunning eyes which peered fiercely to right and the creature was leaping down the broad plumed. Besides he was very trying for those who were around him it was the sob of a tall thin man with the death. The serpent for when Mortimer pressed his questions to an inconvenient extent I asked him casually to what I say Watson that you. Telegram from London so that we may help to me for anything outside the ordinary routine of life over here and I am. Eyes have ever seen any strange creature or heard the sound which had not a very lonely man whom I used to carry. Who these people have lived so thickly on what must always have done so had the hard dry glitter in his chair and. Wisdom of the telegram delivered to Mr Holmes a picker up of shells on the ivy on the Father of Evil if he.
 
 
 Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
-Middleton s park slap across it sir and that when i was too great misfortune will befall you
+Hath a devil for rushing down the passage as noiselessly as i have great mire now for even the firm uplands are becoming a.
 ```
 
 ## License
