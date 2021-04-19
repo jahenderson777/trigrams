@@ -110,9 +110,6 @@
 
 (def trigram-map-backwards (generate-trigram-map book true))
 
-
-(get trigram-map ["the" "lady’s"])
-
 (defn -main
   [& args]
   (println "Task 1: generate a sequence of 50 words")
