@@ -12,21 +12,6 @@
                 (punctuation (last b))))
           trigram))
 
-(defn remove-punctuation [[a b c :as t]]
-  (if (punctuation (last c))
-    (list a b (re-find #"[\w\-\'’]+" c))
-    t))
-
-
-(defn gather-trigrams
-  [text & [backwards]]
-  (->> (str/split text #"[^\w-[’\'.!?\-]]")
-       (filter seq)
-       (#(if backwards (reverse %) %))
-       (partition 3 1)
-       drop-split-sentences
-       (map remove-punctuation)))
-
 (defn gather-trigrams
   [text & [backwards]]
   (->> (str/split text #"[^\w-[’\'.!?\-]]")
@@ -34,17 +19,6 @@
        (#(if backwards (reverse %) %))
        (partition 3 1)
        drop-split-sentences))
-
-
-
-(comment
-  ;; I started experimenting for a better way of determining the allowed ways to start and end a sentence
-  (flatten
-   (map
-    (fn [w] (if (punctuation (last w))
-              [(subs w 0 (dec (count w))) (str (last w))]
-              w))
-    (str/split "the cat sat on the other cat on the mat on the-floor" #"[^\w-[.!?\-]]"))))
 
 (defn group-trigrams
   "Takes a sequence of trigrams, a trigram is a three element vector, e.g. [\"a\" \"b\" \"c\"].
