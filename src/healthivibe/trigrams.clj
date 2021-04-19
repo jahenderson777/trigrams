@@ -12,12 +12,11 @@
                 (punctuation (last b))))
           trigram))
 
-(defn remove-punctuation [trigrams]
-  (map (fn [[a b c :as t]]
-         (if (punctuation (last c))
-           (list a b (re-find #"[\w\-\'’]+" c))
-           t))
-       trigrams))
+(defn remove-punctuation [[a b c :as t]]
+  (if (punctuation (last c))
+    (list a b (re-find #"[\w\-\'’]+" c))
+    t))
+
 
 (defn gather-trigrams
   [text & [backwards]]
@@ -26,7 +25,17 @@
        (#(if backwards (reverse %) %))
        (partition 3 1)
        drop-split-sentences
-       remove-punctuation))
+       (map remove-punctuation)))
+
+(defn gather-trigrams
+  [text & [backwards]]
+  (->> (str/split text #"[^\w-[’\'.!?\-]]")
+       (filter seq)
+       (#(if backwards (reverse %) %))
+       (partition 3 1)
+       drop-split-sentences))
+
+
 
 (comment
   ;; I started experimenting for a better way of determining the allowed ways to start and end a sentence
@@ -56,16 +65,35 @@
   (group-trigrams (gather-trigrams text backwards)))
 
 
+(defn find-key-starting-with [trigram-map x]
+  (-> (filter (fn [[a b]]
+                (= a x))
+              (keys trigram-map))
+      rand-nth))
+
+(defn find-key-ending-with [trigram-map x]
+  (-> (filter (fn [[a b]]
+                (= b x))
+              (keys trigram-map))
+      seq
+      rand-nth))
+
 (defn generate-sentence [trigram-map n & [start-key]]
   (loop [i (- n 2)
          k (or start-key (rand-nth (keys trigram-map)))
          s (str/capitalize (apply str (interpose " " k)))]
     (if (zero? i)
       (str s ".")
-      (let [v (rand-nth (get trigram-map k))
-            v (if (nil? v) ; sometimes the bigram only exists at sentence end, but important to get our full quota of words, so pick another random word to continue in this case.
-                (rand-nth (rand-nth (vals trigram-map)))
-                v)]
+      (let [; sometimes the bigram only exists at sentence end, but important to get our full quota of words, so try some different approaches to get an appropriate word...
+            values (or (seq (remove (fn [s] (punctuation (last s)))
+                                    (get trigram-map k)))
+                       (get trigram-map k)
+                       (seq (remove (fn [s] (punctuation (last s)))
+                                    (get trigram-map (find-key-ending-with trigram-map (re-find #"[\w\-\'’]+" (second k))))))
+                       (rand-nth (vals trigram-map)))
+  
+            v (rand-nth values)
+            v (re-find #"[\w\-\'’]+" v)]
         (recur (dec i) [(last k) v] (str s " " v))))))
 
 (defn generate-sentence-backwards [trigram-map n start-key]
@@ -73,42 +101,43 @@
          k start-key
          s (apply str (reverse (interpose " " k)))]
     (if (zero? i)
-      (str/capitalize s) 
+      (str/capitalize s)
       ;; problem with the above is it lowercases words like "I", could try something like the following but that has the problem of persisting capitalized beginning of sentence words
       ;; (str (str/capitalize (subs s 0 1))
       ;;      (subs s 1 (count s)))
-      (let [v (rand-nth (get trigram-map k))
-            v (if (nil? v) ; sometimes the bigram only exists at sentence end, but important to get our full quota of words, so pick another random word to continue in this case.
-                (rand-nth (rand-nth (vals trigram-map)))
-                v)]
+      (let [values (or (get trigram-map k) ; sometimes the bigram only exists at sentence end, but important to get our full quota of words, so pick another random word to continue in this case.
+                       (get trigram-map (find-key-ending-with trigram-map (re-find #"[\w\-\'’]+" (second k))))
+                       (rand-nth (vals trigram-map)))
+            v (re-find #"[\w\-\'’]+" (rand-nth values))]
         (recur (dec i) [(last k) v] (str v " " s))))))
-
-(defn find-key-starting-with [trigram-map x]
-  (-> (filter (fn [[a b]]
-                (= a x))
-              (keys trigram-map))
-      rand-nth))
 
 (defn generate-sentences [trigram-map n]
   (->> (repeatedly n (partial generate-sentence trigram-map (+ 12 (rand-int 20))))
        (interpose " ")
        (apply str)))
 
-(defn generate-sentence-containing [trigram-map 
+(defn generate-sentence-containing [trigram-map
                                     trigram-map-backwards
                                     word]
-  (str (generate-sentence-backwards trigram-map-backwards
-                                    (+ 3 (rand-int 10))
-                                    (find-key-starting-with trigram-map-backwards word))
-       " "
-       (subs (generate-sentence trigram-map
-                                (+ 3 (rand-int 10))
-                                (find-key-starting-with trigram-map word))
-             (inc (count word)))))
+  (let [beginning (generate-sentence-backwards trigram-map-backwards
+                                               (+ 4 (rand-int 12))
+                                               (find-key-starting-with trigram-map-backwards word))
+        last-two-words (->> (str/split beginning #" ")
+                            (take-last 2)
+                            vec)]
+    (str
+     beginning
+     " "
+     (subs (generate-sentence trigram-map
+                              (+ 3 (rand-int 12))
+                              last-two-words)
+           (+ 2 (count (apply str last-two-words)))))))
 
 (def trigram-map (generate-trigram-map book))
 
 (def trigram-map-backwards (generate-trigram-map book true))
+
+
 
 (defn -main
   [& args]

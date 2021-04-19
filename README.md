@@ -39,15 +39,15 @@ Run the project's tests:
 ## Example output
 ```
 Task 1: generate a sequence of 50 words
-Representing himself as to which he struck shone upon something else which turned our hearts sick and faint within us the basis for several deductions the stood miles those originally to somebody head nothing he between suddenly a at upon that very afternoon so that we shall do it together.
+Lord clarendon I most earnestly commend to your severely practical mind the work of the wall under which I may not have helped us to the contrary we shall meet at the silver-tipped bank in front of the prehistoric people where they like with their profiles towards me and stooped.
 
 
 Task 2: Generate 10 full sentences
-Have evidently been running on parallel lines and when he did really believe in such a house as this said he as if. Was entirely absorbed in the loft at the hotel ink and the present are within the last who had been placed in an. They know that there must be few upon the footsteps of our souls upon the moor something which I should then at my. Confided to my aid but his small cunning eyes which peered fiercely to right and the creature was leaping down the broad plumed. Besides he was very trying for those who were around him it was the sob of a tall thin man with the death. The serpent for when Mortimer pressed his questions to an inconvenient extent I asked him casually to what I say Watson that you. Telegram from London so that we may help to me for anything outside the ordinary routine of life over here and I am. Eyes have ever seen any strange creature or heard the sound which had not a very lonely man whom I used to carry. Who these people have lived so thickly on what must always have done so had the hard dry glitter in his chair and. Wisdom of the telegram delivered to Mr Holmes a picker up of shells on the ivy on the Father of Evil if he.
+And fine above us get together and sparkling brightly from behind a pair of gold-rimmed glasses in. Long and left of the business ready to swear you are not content with cultivating the lady’s. Another of those miserable ponies wander into the hut and waited his chance of the butler had. Lives so long and weary labours to so piteous an end of our going to honour us. Out by the cabman’s reply than anywhere else until the instant when we both saw him rejoin. In orchids on the night of what we heard we cannot even swear to one thing and. Sorry madam but I can still remember your complete indifference as to tell him that you should. Changes in your line of portraits which covered the lower curve of the kind nor could any. She raised one hand as if seeking approbation for what he regarded as our own trouble came. Earnest purpose can he see the waste-paper of yesterday his Clarendon I most earnestly commend to your.
 
 
 Task 2: Given a word from the text, generate a sentence which contains it anywhere inside it (using example of 'great')
-Hath a devil for rushing down the passage as noiselessly as i have great mire now for even the firm uplands are becoming a.
+Of events as nearly as i then you may expect great changes to begin here soon their skins turned cold for there is.
 ```
 
 ## License
