@@ -1,3 +1,5 @@
+/.lsp
+/.calva
 /target
 /classes
 /checkouts
@@ -9,4 +11,3 @@
 /.nrepl-port
 .hgignore
 .hg/
-/.lsp
