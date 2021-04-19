@@ -74,7 +74,7 @@
          s (apply str (reverse (interpose " " k)))]
     (if (zero? i)
       (str/capitalize s) 
-      ;; problem the above is it lowercases words like "I", could try something like the following but that has the problem of persisting capitalized beginning of sentence words
+      ;; problem with the above is it lowercases words like "I", could try something like the following but that has the problem of persisting capitalized beginning of sentence words
       ;; (str (str/capitalize (subs s 0 1))
       ;;      (subs s 1 (count s)))
       (let [v (rand-nth (get trigram-map k))
