@@ -6,6 +6,9 @@
 
 (def book (slurp "resources/book.txt"))
 
+(defn remove-punctuation [s]
+  (re-find #"[\w\-\'’,]+" s))
+
 (defn drop-split-sentences [trigram]
   (remove (fn [[a b]]
             (or (punctuation (last a))
@@ -14,7 +17,7 @@
 
 (defn gather-trigrams
   [text & [backwards]]
-  (->> (str/split text #"[^\w-[’\'.!?\-]]")
+  (->> (str/split text #"[^\w-[’\'.!?\-,]]")
        (filter seq)
        (#(if backwards (reverse %) %))
        (partition 3 1)
@@ -52,23 +55,25 @@
       seq
       rand-nth))
 
-(defn generate-sentence [trigram-map n & [start-key]]
-  (loop [i (- n 2)
+(defn generate-sentence [trigram-map & [n start-key]]
+  (loop [i (if n (- n 3) 6)
          k (or start-key (rand-nth (keys trigram-map)))
          s (str/capitalize (apply str (interpose " " k)))]
-    (if (zero? i)
-      (str s ".")
-      (let [; sometimes the bigram only exists at sentence end, but important to get our full quota of words, so try some different approaches to get an appropriate word...
-            values (or (seq (remove (fn [s] (punctuation (last s)))
-                                    (get trigram-map k)))
-                       (get trigram-map k)
-                       (seq (remove (fn [s] (punctuation (last s)))
-                                    (get trigram-map (find-key-ending-with trigram-map (re-find #"[\w\-\'’]+" (second k))))))
-                       (rand-nth (vals trigram-map)))
-  
-            v (rand-nth values)
-            v (re-find #"[\w\-\'’]+" v)]
-        (recur (dec i) [(last k) v] (str s " " v))))))
+    (let [; sometimes the bigram only exists at sentence end, but important to get our full quota of words, so try some different approaches to get an appropriate word...
+          values (or (seq (remove (fn [s] (punctuation (last s)))
+                                  (get trigram-map k)))
+                     (get trigram-map k)
+                     (seq (remove (fn [s] (punctuation (last s)))
+                                  (get trigram-map (find-key-ending-with trigram-map (remove-punctuation (second k))))))
+                     (rand-nth (vals trigram-map)))
+
+          v (rand-nth values)]
+      (if (or (and n (zero? i))
+              (and (<= i 0) (punctuation (last v))))
+        (str s " " v 
+             (when n "."))
+        (recur (dec i) [(last k) v] (str s " " (remove-punctuation v)))))))
+
 
 (defn generate-sentence-backwards [trigram-map n start-key]
   (loop [i n
@@ -80,13 +85,16 @@
       ;; (str (str/capitalize (subs s 0 1))
       ;;      (subs s 1 (count s)))
       (let [values (or (get trigram-map k) ; sometimes the bigram only exists at sentence end, but important to get our full quota of words, so pick another random word to continue in this case.
-                       (get trigram-map (find-key-ending-with trigram-map (re-find #"[\w\-\'’]+" (second k))))
+                       (get trigram-map (find-key-ending-with trigram-map (remove-punctuation (second k))))
                        (rand-nth (vals trigram-map)))
-            v (re-find #"[\w\-\'’]+" (rand-nth values))]
+            v (remove-punctuation (rand-nth values))
+            v (if (= v "i")
+                "I"
+                v)]
         (recur (dec i) [(last k) v] (str v " " s))))))
 
 (defn generate-sentences [trigram-map n]
-  (->> (repeatedly n (partial generate-sentence trigram-map (+ 12 (rand-int 20))))
+  (->> (repeatedly n (partial generate-sentence trigram-map))
        (interpose " ")
        (apply str)))
 
@@ -103,7 +111,7 @@
      beginning
      " "
      (subs (generate-sentence trigram-map
-                              (+ 3 (rand-int 12))
+                              nil
                               last-two-words)
            (+ 2 (count (apply str last-two-words)))))))
 
